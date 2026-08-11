@@ -1,0 +1,4357 @@
+[
+  {
+    "id": 1,
+    "en": "a few",
+    "level": "A1",
+    "examples": [
+      "a few minutes",
+      "a few times",
+      "a few years"
+    ]
+  },
+  {
+    "id": 2,
+    "en": "a good idea",
+    "level": "A1",
+    "examples": [
+      "Good idea!",
+      "It’s a good idea to…",
+      "That’s a good idea!"
+    ]
+  },
+  {
+    "id": 3,
+    "en": "agree with sb",
+    "level": "A1"
+  },
+  {
+    "id": 4,
+    "en": "a little",
+    "level": "A1",
+    "examples": [
+      "a little help",
+      "a little money",
+      "a little sugar"
+    ]
+  },
+  {
+    "id": 5,
+    "en": "a lot",
+    "level": "A1",
+    "examples": [
+      "a lot to do"
+    ]
+  },
+  {
+    "id": 6,
+    "en": "a lot of sth",
+    "level": "A1"
+  },
+  {
+    "id": 7,
+    "en": "all day",
+    "level": "A1",
+    "examples": [
+      "all night"
+    ]
+  },
+  {
+    "id": 8,
+    "en": "all over the world",
+    "level": "A1"
+  },
+  {
+    "id": 9,
+    "en": "anything else",
+    "level": "A1",
+    "examples": [
+      "anyone else"
+    ]
+  },
+  {
+    "id": 10,
+    "en": "a period of time",
+    "level": "A1"
+  },
+  {
+    "id": 11,
+    "en": "around the world",
+    "level": "A1"
+  },
+  {
+    "id": 12,
+    "en": "arrive at…",
+    "level": "A1"
+  },
+  {
+    "id": 13,
+    "en": "arrive in…",
+    "level": "A1"
+  },
+  {
+    "id": 14,
+    "en": "ask for sth",
+    "level": "A1"
+  },
+  {
+    "id": 15,
+    "en": "at home",
+    "level": "A1"
+  },
+  {
+    "id": 16,
+    "en": "at school",
+    "level": "A1"
+  },
+  {
+    "id": 17,
+    "en": "at the beginning of sth",
+    "level": "A1"
+  },
+  {
+    "id": 18,
+    "en": "at the end",
+    "level": "A1"
+  },
+  {
+    "id": 19,
+    "en": "at the end of sth",
+    "level": "A1"
+  },
+  {
+    "id": 20,
+    "en": "at the moment",
+    "level": "A1"
+  },
+  {
+    "id": 21,
+    "en": "at the same time",
+    "level": "A1"
+  },
+  {
+    "id": 22,
+    "en": "at the weekend",
+    "level": "A1"
+  },
+  {
+    "id": 23,
+    "en": "at university",
+    "level": "A1"
+  },
+  {
+    "id": 24,
+    "en": "at work",
+    "level": "A1"
+  },
+  {
+    "id": 25,
+    "en": "away from sb/sth",
+    "level": "A1"
+  },
+  {
+    "id": 26,
+    "en": "bad for sb/sth",
+    "level": "A1"
+  },
+  {
+    "id": 27,
+    "en": "bad news",
+    "level": "A1"
+  },
+  {
+    "id": 28,
+    "en": "bad thing",
+    "level": "A1",
+    "examples": [
+      "the bad things about sth"
+    ]
+  },
+  {
+    "id": 29,
+    "en": "because of",
+    "level": "A1"
+  },
+  {
+    "id": 30,
+    "en": "begin with sth",
+    "level": "A1"
+  },
+  {
+    "id": 31,
+    "en": "be going to do sth",
+    "level": "A1"
+  },
+  {
+    "id": 32,
+    "en": "best friend",
+    "level": "A1"
+  },
+  {
+    "id": 33,
+    "en": "black and white",
+    "level": "A1"
+  },
+  {
+    "id": 34,
+    "en": "car park",
+    "level": "A1"
+  },
+  {
+    "id": 35,
+    "en": "cell phone",
+    "level": "A1"
+  },
+  {
+    "id": 36,
+    "en": "city centre",
+    "level": "A1",
+    "examples": [
+      "in the city centre"
+    ]
+  },
+  {
+    "id": 37,
+    "en": "come from…",
+    "level": "A1"
+  },
+  {
+    "id": 38,
+    "en": "come into sth",
+    "level": "A1",
+    "examples": [
+      "He came into the room."
+    ]
+  },
+  {
+    "id": 39,
+    "en": "differences between A and B",
+    "level": "A1"
+  },
+  {
+    "id": 40,
+    "en": "difficult for sb",
+    "level": "A1",
+    "examples": [
+      "it is difficult for sb to do sth"
+    ]
+  },
+  {
+    "id": 41,
+    "en": "each other",
+    "level": "A1"
+  },
+  {
+    "id": 42,
+    "en": "end in sth",
+    "level": "A1"
+  },
+  {
+    "id": 43,
+    "en": "every day",
+    "level": "A1",
+    "examples": [
+      "every week",
+      "every year"
+    ]
+  },
+  {
+    "id": 44,
+    "en": "excuse me",
+    "level": "A1"
+  },
+  {
+    "id": 45,
+    "en": "family member",
+    "level": "A1"
+  },
+  {
+    "id": 46,
+    "en": "find out",
+    "level": "A1",
+    "examples": [
+      "find out about sth",
+      "find out more"
+    ]
+  },
+  {
+    "id": 47,
+    "en": "for a long time",
+    "level": "A1",
+    "examples": [
+      "a long time"
+    ]
+  },
+  {
+    "id": 48,
+    "en": "for a moment",
+    "level": "A1"
+  },
+  {
+    "id": 49,
+    "en": "for example",
+    "level": "A1"
+  },
+  {
+    "id": 50,
+    "en": "for lunch",
+    "level": "A1"
+  },
+  {
+    "id": 51,
+    "en": "for many years",
+    "level": "A1"
+  },
+  {
+    "id": 52,
+    "en": "for the first time",
+    "level": "A1"
+  },
+  {
+    "id": 53,
+    "en": "get home",
+    "level": "A1"
+  },
+  {
+    "id": 54,
+    "en": "get married",
+    "level": "A1"
+  },
+  {
+    "id": 55,
+    "en": "get off",
+    "level": "A1",
+    "examples": [
+      "get off the bus",
+      "I’m getting off here."
+    ]
+  },
+  {
+    "id": 56,
+    "en": "get on",
+    "level": "A1",
+    "examples": [
+      "get on the bus",
+      "Are you getting on?"
+    ]
+  },
+  {
+    "id": 57,
+    "en": "get ready",
+    "level": "A1",
+    "examples": [
+      "get ready for sth",
+      "get ready to do sth"
+    ]
+  },
+  {
+    "id": 58,
+    "en": "get there",
+    "level": "A1"
+  },
+  {
+    "id": 59,
+    "en": "get to…",
+    "level": "A1"
+  },
+  {
+    "id": 60,
+    "en": "get up",
+    "level": "A1"
+  },
+  {
+    "id": 61,
+    "en": "go back",
+    "level": "A1",
+    "examples": [
+      "go back to…"
+    ]
+  },
+  {
+    "id": 62,
+    "en": "go home",
+    "level": "A1"
+  },
+  {
+    "id": 63,
+    "en": "go into sth",
+    "level": "A1",
+    "examples": [
+      "She went into her room."
+    ]
+  },
+  {
+    "id": 64,
+    "en": "good at sth",
+    "level": "A1"
+  },
+  {
+    "id": 65,
+    "en": "good for sb/sth",
+    "level": "A1"
+  },
+  {
+    "id": 66,
+    "en": "Good morning",
+    "level": "A1",
+    "examples": [
+      "Good afternoon",
+      "Good evening"
+    ]
+  },
+  {
+    "id": 67,
+    "en": "good news",
+    "level": "A1"
+  },
+  {
+    "id": 68,
+    "en": "good thing",
+    "level": "A1",
+    "examples": [
+      "the good things about sth"
+    ]
+  },
+  {
+    "id": 69,
+    "en": "go out",
+    "level": "A1"
+  },
+  {
+    "id": 70,
+    "en": "go to bed",
+    "level": "A1"
+  },
+  {
+    "id": 71,
+    "en": "go to school",
+    "level": "A1"
+  },
+  {
+    "id": 72,
+    "en": "go to work",
+    "level": "A1"
+  },
+  {
+    "id": 73,
+    "en": "grow up",
+    "level": "A1"
+  },
+  {
+    "id": 74,
+    "en": "Guess what…",
+    "level": "A1"
+  },
+  {
+    "id": 75,
+    "en": "half an hour",
+    "level": "A1"
+  },
+  {
+    "id": 76,
+    "en": "hard work",
+    "level": "A1"
+  },
+  {
+    "id": 77,
+    "en": "have fun",
+    "level": "A1"
+  },
+  {
+    "id": 78,
+    "en": "have got",
+    "level": "A1"
+  },
+  {
+    "id": 79,
+    "en": "have time",
+    "level": "A1",
+    "examples": [
+      "have time for sth",
+      "have time to do sth"
+    ]
+  },
+  {
+    "id": 80,
+    "en": "he or she",
+    "level": "A1"
+  },
+  {
+    "id": 81,
+    "en": "high school",
+    "level": "A1"
+  },
+  {
+    "id": 82,
+    "en": "his or her",
+    "level": "A1"
+  },
+  {
+    "id": 83,
+    "en": "How about…?",
+    "level": "A1"
+  },
+  {
+    "id": 84,
+    "en": "How are you?",
+    "level": "A1"
+  },
+  {
+    "id": 85,
+    "en": "How long…?",
+    "level": "A1"
+  },
+  {
+    "id": 86,
+    "en": "How many…?",
+    "level": "A1"
+  },
+  {
+    "id": 87,
+    "en": "How much…?",
+    "level": "A1"
+  },
+  {
+    "id": 88,
+    "en": "How often…?",
+    "level": "A1"
+  },
+  {
+    "id": 89,
+    "en": "important for sb/sth",
+    "level": "A1",
+    "examples": [
+      "It is important for sb/sth to do sth"
+    ]
+  },
+  {
+    "id": 90,
+    "en": "I’m sorry",
+    "level": "A1"
+  },
+  {
+    "id": 91,
+    "en": "in April",
+    "level": "A1",
+    "examples": [
+      "in July, etc."
+    ]
+  },
+  {
+    "id": 92,
+    "en": "in bed",
+    "level": "A1"
+  },
+  {
+    "id": 93,
+    "en": "in class",
+    "level": "A1"
+  },
+  {
+    "id": 94,
+    "en": "in fact",
+    "level": "A1"
+  },
+  {
+    "id": 95,
+    "en": "in front of",
+    "level": "A1"
+  },
+  {
+    "id": 96,
+    "en": "in my opinion",
+    "level": "A1"
+  },
+  {
+    "id": 97,
+    "en": "in school",
+    "level": "A1"
+  },
+  {
+    "id": 98,
+    "en": "in space",
+    "level": "A1"
+  },
+  {
+    "id": 99,
+    "en": "in summer",
+    "level": "A1",
+    "examples": [
+      "in winter"
+    ]
+  },
+  {
+    "id": 100,
+    "en": "in the centre",
+    "level": "A1",
+    "examples": [
+      "in the centre of sth"
+    ]
+  },
+  {
+    "id": 101,
+    "en": "in the country",
+    "level": "A1",
+    "examples": [
+      "I live in the country.",
+      "the best… in the country"
+    ]
+  },
+  {
+    "id": 102,
+    "en": "in the future",
+    "level": "A1"
+  },
+  {
+    "id": 103,
+    "en": "in the morning",
+    "level": "A1",
+    "examples": [
+      "in the afternoon",
+      "in the evening"
+    ]
+  },
+  {
+    "id": 104,
+    "en": "in the north",
+    "level": "A1",
+    "examples": [
+      "in the south",
+      "in the east",
+      "in the west"
+    ]
+  },
+  {
+    "id": 105,
+    "en": "in the past",
+    "level": "A1"
+  },
+  {
+    "id": 106,
+    "en": "in the street",
+    "level": "A1"
+  },
+  {
+    "id": 107,
+    "en": "in the summer",
+    "level": "A1",
+    "examples": [
+      "in the winter"
+    ]
+  },
+  {
+    "id": 108,
+    "en": "in town",
+    "level": "A1"
+  },
+  {
+    "id": 109,
+    "en": "it is important to do sth",
+    "level": "A1"
+  },
+  {
+    "id": 110,
+    "en": "It takes…",
+    "level": "A1",
+    "examples": [
+      "It takes an hour to get there."
+    ]
+  },
+  {
+    "id": 111,
+    "en": "kind of sb/sth",
+    "level": "A1",
+    "examples": [
+      "What kind of music do you like?"
+    ]
+  },
+  {
+    "id": 112,
+    "en": "know how",
+    "level": "A1",
+    "examples": [
+      "know how to do sth"
+    ]
+  },
+  {
+    "id": 113,
+    "en": "last time",
+    "level": "A1",
+    "examples": [
+      "the last time"
+    ]
+  },
+  {
+    "id": 114,
+    "en": "last year",
+    "level": "A1",
+    "examples": [
+      "last month",
+      "last summer",
+      "last week",
+      "last weekend"
+    ]
+  },
+  {
+    "id": 115,
+    "en": "learn how to do sth",
+    "level": "A1"
+  },
+  {
+    "id": 116,
+    "en": "listen to sb/sth",
+    "level": "A1"
+  },
+  {
+    "id": 117,
+    "en": "live with sb",
+    "level": "A1"
+  },
+  {
+    "id": 118,
+    "en": "living room",
+    "level": "A1"
+  },
+  {
+    "id": 119,
+    "en": "look at sb/sth",
+    "level": "A1"
+  },
+  {
+    "id": 120,
+    "en": "look for sb/sth",
+    "level": "A1"
+  },
+  {
+    "id": 121,
+    "en": "look like sb/sth",
+    "level": "A1"
+  },
+  {
+    "id": 122,
+    "en": "lots of…",
+    "level": "A1"
+  },
+  {
+    "id": 123,
+    "en": "millions of…",
+    "level": "A1"
+  },
+  {
+    "id": 124,
+    "en": "mobile phone",
+    "level": "A1"
+  },
+  {
+    "id": 125,
+    "en": "more than…",
+    "level": "A1"
+  },
+  {
+    "id": 126,
+    "en": "next time",
+    "level": "A1"
+  },
+  {
+    "id": 127,
+    "en": "next year",
+    "level": "A1",
+    "examples": [
+      "next month",
+      "next week"
+    ]
+  },
+  {
+    "id": 128,
+    "en": "No problem",
+    "level": "A1"
+  },
+  {
+    "id": 129,
+    "en": "of course",
+    "level": "A1"
+  },
+  {
+    "id": 130,
+    "en": "Oh no!",
+    "level": "A1"
+  },
+  {
+    "id": 131,
+    "en": "Oh yes",
+    "level": "A1"
+  },
+  {
+    "id": 132,
+    "en": "old friend",
+    "level": "A1"
+  },
+  {
+    "id": 133,
+    "en": "once a…",
+    "level": "A1",
+    "examples": [
+      "once a month",
+      "once a week",
+      "once a year"
+    ]
+  },
+  {
+    "id": 134,
+    "en": "one day",
+    "level": "A1"
+  },
+  {
+    "id": 135,
+    "en": "on holiday",
+    "level": "A1"
+  },
+  {
+    "id": 136,
+    "en": "on Monday",
+    "level": "A1",
+    "examples": [
+      "on Tuesday, etc."
+    ]
+  },
+  {
+    "id": 137,
+    "en": "on television",
+    "level": "A1",
+    "examples": [
+      "on the television"
+    ]
+  },
+  {
+    "id": 138,
+    "en": "on the beach",
+    "level": "A1"
+  },
+  {
+    "id": 139,
+    "en": "on the floor",
+    "level": "A1"
+  },
+  {
+    "id": 140,
+    "en": "on the internet",
+    "level": "A1"
+  },
+  {
+    "id": 141,
+    "en": "on the left",
+    "level": "A1",
+    "examples": [
+      "on the right"
+    ]
+  },
+  {
+    "id": 142,
+    "en": "on the phone",
+    "level": "A1",
+    "examples": [
+      "be on the phone",
+      "talk on the phone"
+    ]
+  },
+  {
+    "id": 143,
+    "en": "on TV",
+    "level": "A1"
+  },
+  {
+    "id": 144,
+    "en": "out of sth",
+    "level": "A1"
+  },
+  {
+    "id": 145,
+    "en": "over there",
+    "level": "A1"
+  },
+  {
+    "id": 146,
+    "en": "pay for sth",
+    "level": "A1"
+  },
+  {
+    "id": 147,
+    "en": "phone call",
+    "level": "A1"
+  },
+  {
+    "id": 148,
+    "en": "phone number",
+    "level": "A1"
+  },
+  {
+    "id": 149,
+    "en": "plan for sth",
+    "level": "A1",
+    "examples": [
+      "make plans for sth",
+      "What are your plans for next year?"
+    ]
+  },
+  {
+    "id": 150,
+    "en": "play with sb/sth",
+    "level": "A1"
+  },
+  {
+    "id": 151,
+    "en": "post office",
+    "level": "A1"
+  },
+  {
+    "id": 152,
+    "en": "pretty good",
+    "level": "A1"
+  },
+  {
+    "id": 153,
+    "en": "really enjoy",
+    "level": "A1",
+    "examples": [
+      "I really enjoyed it."
+    ]
+  },
+  {
+    "id": 154,
+    "en": "really good",
+    "level": "A1"
+  },
+  {
+    "id": 155,
+    "en": "really like",
+    "level": "A1",
+    "examples": [
+      "I’d really like to…"
+    ]
+  },
+  {
+    "id": 156,
+    "en": "right now",
+    "level": "A1"
+  },
+  {
+    "id": 157,
+    "en": "See you",
+    "level": "A1",
+    "examples": [
+      "See you around",
+      "See you later",
+      "See you soon"
+    ]
+  },
+  {
+    "id": 158,
+    "en": "sit down",
+    "level": "A1"
+  },
+  {
+    "id": 159,
+    "en": "someone else",
+    "level": "A1",
+    "examples": [
+      "something else"
+    ]
+  },
+  {
+    "id": 160,
+    "en": "speak to sb",
+    "level": "A1"
+  },
+  {
+    "id": 161,
+    "en": "spend time",
+    "level": "A1",
+    "examples": [
+      "spend time doing sth",
+      "spend time with sb"
+    ]
+  },
+  {
+    "id": 162,
+    "en": "stand up",
+    "level": "A1"
+  },
+  {
+    "id": 163,
+    "en": "stay in",
+    "level": "A1",
+    "examples": [
+      "stay in a hotel",
+      "stay in bed",
+      "I’m staying in tonight."
+    ]
+  },
+  {
+    "id": 164,
+    "en": "such as",
+    "level": "A1"
+  },
+  {
+    "id": 165,
+    "en": "swimming pool",
+    "level": "A1"
+  },
+  {
+    "id": 166,
+    "en": "talk about sb/sth",
+    "level": "A1"
+  },
+  {
+    "id": 167,
+    "en": "thank you",
+    "level": "A1",
+    "examples": [
+      "thank you very much"
+    ]
+  },
+  {
+    "id": 168,
+    "en": "that day",
+    "level": "A1"
+  },
+  {
+    "id": 169,
+    "en": "the 20th century",
+    "level": "A1",
+    "examples": [
+      "the 21st century",
+      "the 19th century"
+    ]
+  },
+  {
+    "id": 170,
+    "en": "the next day",
+    "level": "A1"
+  },
+  {
+    "id": 171,
+    "en": "there is",
+    "level": "A1",
+    "examples": [
+      "there are",
+      "there was",
+      "there were"
+    ]
+  },
+  {
+    "id": 172,
+    "en": "think about sb/sth",
+    "level": "A1"
+  },
+  {
+    "id": 173,
+    "en": "think of sb/sth",
+    "level": "A1"
+  },
+  {
+    "id": 174,
+    "en": "This is…",
+    "level": "A1",
+    "examples": [
+      "This is my dad."
+    ]
+  },
+  {
+    "id": 175,
+    "en": "this kind of…",
+    "level": "A1"
+  },
+  {
+    "id": 176,
+    "en": "this morning",
+    "level": "A1",
+    "examples": [
+      "this afternoon",
+      "this evening"
+    ]
+  },
+  {
+    "id": 177,
+    "en": "this time",
+    "level": "A1"
+  },
+  {
+    "id": 178,
+    "en": "this year",
+    "level": "A1",
+    "examples": [
+      "this summer",
+      "this weekend"
+    ]
+  },
+  {
+    "id": 179,
+    "en": "thousands of…",
+    "level": "A1"
+  },
+  {
+    "id": 180,
+    "en": "too long",
+    "level": "A1",
+    "examples": [
+      "too far",
+      "too hard"
+    ]
+  },
+  {
+    "id": 181,
+    "en": "too much",
+    "level": "A1",
+    "examples": [
+      "too many"
+    ]
+  },
+  {
+    "id": 182,
+    "en": "town centre",
+    "level": "A1",
+    "examples": [
+      "in the town centre"
+    ]
+  },
+  {
+    "id": 183,
+    "en": "TV show",
+    "level": "A1"
+  },
+  {
+    "id": 184,
+    "en": "wait for sb/sth",
+    "level": "A1"
+  },
+  {
+    "id": 185,
+    "en": "wake up",
+    "level": "A1"
+  },
+  {
+    "id": 186,
+    "en": "welcome to sth",
+    "level": "A1"
+  },
+  {
+    "id": 187,
+    "en": "What about…?",
+    "level": "A1"
+  },
+  {
+    "id": 188,
+    "en": "work as sth",
+    "level": "A1"
+  },
+  {
+    "id": 189,
+    "en": "work for sb/sth",
+    "level": "A1"
+  },
+  {
+    "id": 190,
+    "en": "work hard",
+    "level": "A1"
+  },
+  {
+    "id": 191,
+    "en": "work together",
+    "level": "A1",
+    "examples": [
+      "work together for sth",
+      "work together to do sth"
+    ]
+  },
+  {
+    "id": 192,
+    "en": "work with sb",
+    "level": "A1"
+  },
+  {
+    "id": 193,
+    "en": "would like",
+    "level": "A1",
+    "examples": [
+      "I would like…",
+      "I would like to…"
+    ]
+  },
+  {
+    "id": 194,
+    "en": "Would you like…?",
+    "level": "A1"
+  },
+  {
+    "id": 195,
+    "en": "X hours a day",
+    "level": "A1"
+  },
+  {
+    "id": 196,
+    "en": "X times a…",
+    "level": "A1",
+    "examples": [
+      "X times a day",
+      "X times a week"
+    ]
+  },
+  {
+    "id": 197,
+    "en": "X years ago",
+    "level": "A1",
+    "examples": [
+      "X days ago",
+      "X months ago",
+      "X weeks ago"
+    ]
+  },
+  {
+    "id": 198,
+    "en": "X years later",
+    "level": "A1",
+    "examples": [
+      "X days later",
+      "X minutes later"
+    ]
+  },
+  {
+    "id": 199,
+    "en": "X years old",
+    "level": "A1"
+  },
+  {
+    "id": 200,
+    "en": "You’re welcome",
+    "level": "A1"
+  },
+  {
+    "id": 201,
+    "en": "a bit",
+    "level": "A2"
+  },
+  {
+    "id": 202,
+    "en": "able to do sth",
+    "level": "A2"
+  },
+  {
+    "id": 203,
+    "en": "a couple of sth",
+    "level": "A2"
+  },
+  {
+    "id": 204,
+    "en": "add to sth",
+    "level": "A2"
+  },
+  {
+    "id": 205,
+    "en": "again and again",
+    "level": "A2"
+  },
+  {
+    "id": 206,
+    "en": "all about…",
+    "level": "A2",
+    "examples": [
+      "Tell me all about it."
+    ]
+  },
+  {
+    "id": 207,
+    "en": "all kinds of…",
+    "level": "A2"
+  },
+  {
+    "id": 208,
+    "en": "all over…",
+    "level": "A2",
+    "examples": [
+      "all over the world"
+    ]
+  },
+  {
+    "id": 209,
+    "en": "all sorts of…",
+    "level": "A2"
+  },
+  {
+    "id": 210,
+    "en": "all the time",
+    "level": "A2"
+  },
+  {
+    "id": 211,
+    "en": "a long time ago",
+    "level": "A2"
+  },
+  {
+    "id": 212,
+    "en": "a long way",
+    "level": "A2"
+  },
+  {
+    "id": 213,
+    "en": "a number of sth",
+    "level": "A2",
+    "examples": [
+      "a large number of sth"
+    ]
+  },
+  {
+    "id": 214,
+    "en": "apply for sth",
+    "level": "A2"
+  },
+  {
+    "id": 215,
+    "en": "art gallery",
+    "level": "A2"
+  },
+  {
+    "id": 216,
+    "en": "as a result",
+    "level": "A2",
+    "examples": [
+      "as a result of sth"
+    ]
+  },
+  {
+    "id": 217,
+    "en": "as part of sth",
+    "level": "A2",
+    "examples": [
+      "as part of a team"
+    ]
+  },
+  {
+    "id": 218,
+    "en": "as soon as",
+    "level": "A2"
+  },
+  {
+    "id": 219,
+    "en": "as well",
+    "level": "A2",
+    "examples": [
+      "as well as sb/sth"
+    ]
+  },
+  {
+    "id": 220,
+    "en": "at first",
+    "level": "A2"
+  },
+  {
+    "id": 221,
+    "en": "at least",
+    "level": "A2"
+  },
+  {
+    "id": 222,
+    "en": "at the age of…",
+    "level": "A2"
+  },
+  {
+    "id": 223,
+    "en": "at the start of sth",
+    "level": "A2"
+  },
+  {
+    "id": 224,
+    "en": "at the time",
+    "level": "A2",
+    "examples": [
+      "at that time"
+    ]
+  },
+  {
+    "id": 225,
+    "en": "at the time of sth",
+    "level": "A2"
+  },
+  {
+    "id": 226,
+    "en": "at the top",
+    "level": "A2",
+    "examples": [
+      "at the top of sth"
+    ]
+  },
+  {
+    "id": 227,
+    "en": "based on sth",
+    "level": "A2"
+  },
+  {
+    "id": 228,
+    "en": "be allowed to do sth",
+    "level": "A2"
+  },
+  {
+    "id": 229,
+    "en": "believe in sb/sth",
+    "level": "A2"
+  },
+  {
+    "id": 230,
+    "en": "belong to sb",
+    "level": "A2"
+  },
+  {
+    "id": 231,
+    "en": "belong to sth",
+    "level": "A2"
+  },
+  {
+    "id": 232,
+    "en": "be made of sth",
+    "level": "A2"
+  },
+  {
+    "id": 233,
+    "en": "by the end of sth",
+    "level": "A2"
+  },
+  {
+    "id": 234,
+    "en": "care about sth",
+    "level": "A2"
+  },
+  {
+    "id": 235,
+    "en": "carry on",
+    "level": "A2",
+    "examples": [
+      "carry on with sth"
+    ]
+  },
+  {
+    "id": 236,
+    "en": "carry sth out",
+    "level": "A2"
+  },
+  {
+    "id": 237,
+    "en": "check in",
+    "level": "A2",
+    "examples": [
+      "check in at…",
+      "check sth in"
+    ]
+  },
+  {
+    "id": 238,
+    "en": "check out",
+    "level": "A2",
+    "examples": [
+      "check out of sth"
+    ]
+  },
+  {
+    "id": 239,
+    "en": "climate change",
+    "level": "A2"
+  },
+  {
+    "id": 240,
+    "en": "close to sb/sth",
+    "level": "A2"
+  },
+  {
+    "id": 241,
+    "en": "come back",
+    "level": "A2"
+  },
+  {
+    "id": 242,
+    "en": "Come on!",
+    "level": "A2"
+  },
+  {
+    "id": 243,
+    "en": "connected to sth",
+    "level": "A2"
+  },
+  {
+    "id": 244,
+    "en": "connected with sb/sth",
+    "level": "A2"
+  },
+  {
+    "id": 245,
+    "en": "credit card",
+    "level": "A2"
+  },
+  {
+    "id": 246,
+    "en": "deal with sb",
+    "level": "A2"
+  },
+  {
+    "id": 247,
+    "en": "deal with sth",
+    "level": "A2"
+  },
+  {
+    "id": 248,
+    "en": "depend on sb/sth",
+    "level": "A2",
+    "examples": [
+      "depend on sb/sth for sth"
+    ]
+  },
+  {
+    "id": 249,
+    "en": "depend on sth",
+    "level": "A2"
+  },
+  {
+    "id": 250,
+    "en": "do well",
+    "level": "A2"
+  },
+  {
+    "id": 251,
+    "en": "each one",
+    "level": "A2"
+  },
+  {
+    "id": 252,
+    "en": "end with sth",
+    "level": "A2"
+  },
+  {
+    "id": 253,
+    "en": "even more…",
+    "level": "A2",
+    "examples": [
+      "even more difficult",
+      "even more exciting"
+    ]
+  },
+  {
+    "id": 254,
+    "en": "everyone else",
+    "level": "A2"
+  },
+  {
+    "id": 255,
+    "en": "except for",
+    "level": "A2"
+  },
+  {
+    "id": 256,
+    "en": "fall in love",
+    "level": "A2",
+    "examples": [
+      "fall in love with sb"
+    ]
+  },
+  {
+    "id": 257,
+    "en": "fall off",
+    "level": "A2",
+    "examples": [
+      "fall off sth"
+    ]
+  },
+  {
+    "id": 258,
+    "en": "far away",
+    "level": "A2"
+  },
+  {
+    "id": 259,
+    "en": "feel good",
+    "level": "A2"
+  },
+  {
+    "id": 260,
+    "en": "feel like sth",
+    "level": "A2"
+  },
+  {
+    "id": 261,
+    "en": "fill sth in",
+    "level": "A2"
+  },
+  {
+    "id": 262,
+    "en": "find it difficult to do sth",
+    "level": "A2"
+  },
+  {
+    "id": 263,
+    "en": "first of all",
+    "level": "A2"
+  },
+  {
+    "id": 264,
+    "en": "focus on sb/sth",
+    "level": "A2"
+  },
+  {
+    "id": 265,
+    "en": "followed by sb/sth",
+    "level": "A2"
+  },
+  {
+    "id": 266,
+    "en": "for the rest of sth",
+    "level": "A2"
+  },
+  {
+    "id": 267,
+    "en": "for this reason",
+    "level": "A2"
+  },
+  {
+    "id": 268,
+    "en": "get back",
+    "level": "A2"
+  },
+  {
+    "id": 269,
+    "en": "get better",
+    "level": "A2"
+  },
+  {
+    "id": 270,
+    "en": "get lost",
+    "level": "A2"
+  },
+  {
+    "id": 271,
+    "en": "get out",
+    "level": "A2",
+    "examples": [
+      "get out of sth"
+    ]
+  },
+  {
+    "id": 272,
+    "en": "give up",
+    "level": "A2"
+  },
+  {
+    "id": 273,
+    "en": "give sth up",
+    "level": "A2"
+  },
+  {
+    "id": 274,
+    "en": "go and…",
+    "level": "A2",
+    "examples": [
+      "go and get help"
+    ]
+  },
+  {
+    "id": 275,
+    "en": "go away",
+    "level": "A2"
+  },
+  {
+    "id": 276,
+    "en": "go down",
+    "level": "A2",
+    "examples": [
+      "Prices are going down."
+    ]
+  },
+  {
+    "id": 277,
+    "en": "go down sth",
+    "level": "A2",
+    "examples": [
+      "Go down the road."
+    ]
+  },
+  {
+    "id": 278,
+    "en": "go for sth",
+    "level": "A2",
+    "examples": [
+      "go for a walk"
+    ]
+  },
+  {
+    "id": 279,
+    "en": "go up",
+    "level": "A2",
+    "examples": [
+      "Prices are going up."
+    ]
+  },
+  {
+    "id": 280,
+    "en": "good luck",
+    "level": "A2"
+  },
+  {
+    "id": 281,
+    "en": "happen to sb/sth",
+    "level": "A2"
+  },
+  {
+    "id": 282,
+    "en": "happy with sb/sth",
+    "level": "A2"
+  },
+  {
+    "id": 283,
+    "en": "have a look",
+    "level": "A2",
+    "examples": [
+      "have a look at sth"
+    ]
+  },
+  {
+    "id": 284,
+    "en": "have got to",
+    "level": "A2"
+  },
+  {
+    "id": 285,
+    "en": "Have you ever…?",
+    "level": "A2"
+  },
+  {
+    "id": 286,
+    "en": "health problems",
+    "level": "A2"
+  },
+  {
+    "id": 287,
+    "en": "hear about sb/sth",
+    "level": "A2"
+  },
+  {
+    "id": 288,
+    "en": "I don’t care",
+    "level": "A2"
+  },
+  {
+    "id": 289,
+    "en": "if necessary",
+    "level": "A2"
+  },
+  {
+    "id": 290,
+    "en": "if you want to",
+    "level": "A2"
+  },
+  {
+    "id": 291,
+    "en": "I guess",
+    "level": "A2"
+  },
+  {
+    "id": 292,
+    "en": "I’m afraid…",
+    "level": "A2"
+  },
+  {
+    "id": 293,
+    "en": "I mean",
+    "level": "A2"
+  },
+  {
+    "id": 294,
+    "en": "in business",
+    "level": "A2"
+  },
+  {
+    "id": 295,
+    "en": "in danger",
+    "level": "A2"
+  },
+  {
+    "id": 296,
+    "en": "in history",
+    "level": "A2",
+    "examples": [
+      "the first time in history"
+    ]
+  },
+  {
+    "id": 297,
+    "en": "in hospital",
+    "level": "A2"
+  },
+  {
+    "id": 298,
+    "en": "in love",
+    "level": "A2",
+    "examples": [
+      "in love with sb"
+    ]
+  },
+  {
+    "id": 299,
+    "en": "in prison",
+    "level": "A2"
+  },
+  {
+    "id": 300,
+    "en": "in some cases",
+    "level": "A2"
+  },
+  {
+    "id": 301,
+    "en": "instead of",
+    "level": "A2"
+  },
+  {
+    "id": 302,
+    "en": "in the air",
+    "level": "A2"
+  },
+  {
+    "id": 303,
+    "en": "in the end",
+    "level": "A2"
+  },
+  {
+    "id": 304,
+    "en": "in the middle",
+    "level": "A2",
+    "examples": [
+      "in the middle of sth"
+    ]
+  },
+  {
+    "id": 305,
+    "en": "in the same way",
+    "level": "A2"
+  },
+  {
+    "id": 306,
+    "en": "in this way",
+    "level": "A2"
+  },
+  {
+    "id": 307,
+    "en": "it depends",
+    "level": "A2",
+    "examples": [
+      "it all depends"
+    ]
+  },
+  {
+    "id": 308,
+    "en": "I think so",
+    "level": "A2",
+    "examples": [
+      "I don’t think so"
+    ]
+  },
+  {
+    "id": 309,
+    "en": "lead to sth",
+    "level": "A2"
+  },
+  {
+    "id": 310,
+    "en": "less than…",
+    "level": "A2"
+  },
+  {
+    "id": 311,
+    "en": "Let me…",
+    "level": "A2",
+    "examples": [
+      "Let me help you."
+    ]
+  },
+  {
+    "id": 312,
+    "en": "let me know",
+    "level": "A2"
+  },
+  {
+    "id": 313,
+    "en": "look after sb/sth/yourself",
+    "level": "A2"
+  },
+  {
+    "id": 314,
+    "en": "look back at sth",
+    "level": "A2",
+    "examples": [
+      "Look back at your notes."
+    ]
+  },
+  {
+    "id": 315,
+    "en": "look sth up",
+    "level": "A2"
+  },
+  {
+    "id": 316,
+    "en": "make a mistake",
+    "level": "A2"
+  },
+  {
+    "id": 317,
+    "en": "make money",
+    "level": "A2"
+  },
+  {
+    "id": 318,
+    "en": "make sense",
+    "level": "A2"
+  },
+  {
+    "id": 319,
+    "en": "make sure",
+    "level": "A2",
+    "examples": [
+      "make sure of sth",
+      "make sure that…"
+    ]
+  },
+  {
+    "id": 320,
+    "en": "much better",
+    "level": "A2"
+  },
+  {
+    "id": 321,
+    "en": "not at all",
+    "level": "A2",
+    "examples": [
+      "I didn’t enjoy it at all."
+    ]
+  },
+  {
+    "id": 322,
+    "en": "no way",
+    "level": "A2",
+    "examples": [
+      "No way!",
+      "There is no way (that)…"
+    ]
+  },
+  {
+    "id": 323,
+    "en": "Oh dear",
+    "level": "A2"
+  },
+  {
+    "id": 324,
+    "en": "Oh well",
+    "level": "A2"
+  },
+  {
+    "id": 325,
+    "en": "on earth",
+    "level": "A2"
+  },
+  {
+    "id": 326,
+    "en": "on the ground",
+    "level": "A2"
+  },
+  {
+    "id": 327,
+    "en": "on the other side",
+    "level": "A2",
+    "examples": [
+      "on the other side of sth"
+    ]
+  },
+  {
+    "id": 328,
+    "en": "on the wall",
+    "level": "A2"
+  },
+  {
+    "id": 329,
+    "en": "on time",
+    "level": "A2"
+  },
+  {
+    "id": 330,
+    "en": "on top of sth/sb",
+    "level": "A2"
+  },
+  {
+    "id": 331,
+    "en": "one or two",
+    "level": "A2"
+  },
+  {
+    "id": 332,
+    "en": "ordinary people",
+    "level": "A2"
+  },
+  {
+    "id": 333,
+    "en": "pay attention",
+    "level": "A2",
+    "examples": [
+      "pay attention to sb/sth"
+    ]
+  },
+  {
+    "id": 334,
+    "en": "per hour",
+    "level": "A2",
+    "examples": [
+      "kilometres per hour",
+      "miles per hour"
+    ]
+  },
+  {
+    "id": 335,
+    "en": "pick sb/sth up",
+    "level": "A2"
+  },
+  {
+    "id": 336,
+    "en": "police officer",
+    "level": "A2"
+  },
+  {
+    "id": 337,
+    "en": "police station",
+    "level": "A2"
+  },
+  {
+    "id": 338,
+    "en": "public transport",
+    "level": "A2"
+  },
+  {
+    "id": 339,
+    "en": "put sth on",
+    "level": "A2"
+  },
+  {
+    "id": 340,
+    "en": "quite a lot",
+    "level": "A2",
+    "examples": [
+      "quite a lot of sth"
+    ]
+  },
+  {
+    "id": 341,
+    "en": "reasons why",
+    "level": "A2"
+  },
+  {
+    "id": 342,
+    "en": "refer to sb/sth",
+    "level": "A2",
+    "examples": [
+      "refer to sb/sth as sth"
+    ]
+  },
+  {
+    "id": 343,
+    "en": "report on sth",
+    "level": "A2"
+  },
+  {
+    "id": 344,
+    "en": "respond to sth/sb",
+    "level": "A2"
+  },
+  {
+    "id": 345,
+    "en": "save money",
+    "level": "A2"
+  },
+  {
+    "id": 346,
+    "en": "science fiction",
+    "level": "A2"
+  },
+  {
+    "id": 347,
+    "en": "search for sth/sb",
+    "level": "A2"
+  },
+  {
+    "id": 348,
+    "en": "so that…",
+    "level": "A2"
+  },
+  {
+    "id": 349,
+    "en": "solution to sth",
+    "level": "A2"
+  },
+  {
+    "id": 350,
+    "en": "sort of sth",
+    "level": "A2",
+    "examples": [
+      "What sorts of things do you do?"
+    ]
+  },
+  {
+    "id": 351,
+    "en": "sound like sb/sth",
+    "level": "A2"
+  },
+  {
+    "id": 352,
+    "en": "start with sb/sth",
+    "level": "A2"
+  },
+  {
+    "id": 353,
+    "en": "such a/an…",
+    "level": "A2",
+    "examples": [
+      "such a good idea"
+    ]
+  },
+  {
+    "id": 354,
+    "en": "take care of sb/sth/yourself",
+    "level": "A2"
+  },
+  {
+    "id": 355,
+    "en": "take off",
+    "level": "A2"
+  },
+  {
+    "id": 356,
+    "en": "take sth off",
+    "level": "A2"
+  },
+  {
+    "id": 357,
+    "en": "take part",
+    "level": "A2",
+    "examples": [
+      "take part in sth"
+    ]
+  },
+  {
+    "id": 358,
+    "en": "take place",
+    "level": "A2"
+  },
+  {
+    "id": 359,
+    "en": "the best thing",
+    "level": "A2",
+    "examples": [
+      "the best thing to do"
+    ]
+  },
+  {
+    "id": 360,
+    "en": "the first thing",
+    "level": "A2",
+    "examples": [
+      "the first thing I did"
+    ]
+  },
+  {
+    "id": 361,
+    "en": "the following…",
+    "level": "A2",
+    "examples": [
+      "the following day"
+    ]
+  },
+  {
+    "id": 362,
+    "en": "the important thing",
+    "level": "A2",
+    "examples": [
+      "the most important thing"
+    ]
+  },
+  {
+    "id": 363,
+    "en": "the other side of sth",
+    "level": "A2",
+    "examples": [
+      "the other side of the world"
+    ]
+  },
+  {
+    "id": 364,
+    "en": "the rest of sth",
+    "level": "A2",
+    "examples": [
+      "the rest of the world"
+    ]
+  },
+  {
+    "id": 365,
+    "en": "these days",
+    "level": "A2"
+  },
+  {
+    "id": 366,
+    "en": "they say…",
+    "level": "A2",
+    "examples": [
+      "They say you can’t buy happiness."
+    ]
+  },
+  {
+    "id": 367,
+    "en": "throw sth away",
+    "level": "A2"
+  },
+  {
+    "id": 368,
+    "en": "turn sth off",
+    "level": "A2"
+  },
+  {
+    "id": 369,
+    "en": "turn sth on",
+    "level": "A2"
+  },
+  {
+    "id": 370,
+    "en": "up and down",
+    "level": "A2"
+  },
+  {
+    "id": 371,
+    "en": "Why not…?",
+    "level": "A2"
+  },
+  {
+    "id": 372,
+    "en": "work out",
+    "level": "A2"
+  },
+  {
+    "id": 373,
+    "en": "worried about sb/sth",
+    "level": "A2"
+  },
+  {
+    "id": 374,
+    "en": "would love to do sth",
+    "level": "A2"
+  },
+  {
+    "id": 375,
+    "en": "write sth down",
+    "level": "A2"
+  },
+  {
+    "id": 376,
+    "en": "a bit more",
+    "level": "B1"
+  },
+  {
+    "id": 377,
+    "en": "a bit of sth",
+    "level": "B1"
+  },
+  {
+    "id": 378,
+    "en": "access to sth",
+    "level": "B1"
+  },
+  {
+    "id": 379,
+    "en": "after all",
+    "level": "B1"
+  },
+  {
+    "id": 380,
+    "en": "a great deal",
+    "level": "B1",
+    "examples": [
+      "a great deal better",
+      "a great deal of sth"
+    ]
+  },
+  {
+    "id": 381,
+    "en": "aim to do sth",
+    "level": "B1"
+  },
+  {
+    "id": 382,
+    "en": "a kind of…",
+    "level": "B1",
+    "examples": [
+      "I had a kind of feeling this might happen."
+    ]
+  },
+  {
+    "id": 383,
+    "en": "a little bit",
+    "level": "B1"
+  },
+  {
+    "id": 384,
+    "en": "a little more",
+    "level": "B1"
+  },
+  {
+    "id": 385,
+    "en": "along with sb/sth",
+    "level": "B1"
+  },
+  {
+    "id": 386,
+    "en": "a lot more",
+    "level": "B1"
+  },
+  {
+    "id": 387,
+    "en": "alternative to sth",
+    "level": "B1"
+  },
+  {
+    "id": 388,
+    "en": "and so on",
+    "level": "B1"
+  },
+  {
+    "id": 389,
+    "en": "apart from",
+    "level": "B1"
+  },
+  {
+    "id": 390,
+    "en": "a range of sth",
+    "level": "B1",
+    "examples": [
+      "a wide range of sth"
+    ]
+  },
+  {
+    "id": 391,
+    "en": "as if…",
+    "level": "B1",
+    "examples": [
+      "as if nothing had happened"
+    ]
+  },
+  {
+    "id": 392,
+    "en": "as much as",
+    "level": "B1"
+  },
+  {
+    "id": 393,
+    "en": "as soon as possible",
+    "level": "B1"
+  },
+  {
+    "id": 394,
+    "en": "at last",
+    "level": "B1"
+  },
+  {
+    "id": 395,
+    "en": "at risk",
+    "level": "B1"
+  },
+  {
+    "id": 396,
+    "en": "at times",
+    "level": "B1"
+  },
+  {
+    "id": 397,
+    "en": "attached to sb/sth",
+    "level": "B1"
+  },
+  {
+    "id": 398,
+    "en": "a variety of sth",
+    "level": "B1"
+  },
+  {
+    "id": 399,
+    "en": "be about to do sth",
+    "level": "B1"
+  },
+  {
+    "id": 400,
+    "en": "be going on",
+    "level": "B1",
+    "examples": [
+      "What’s going on?"
+    ]
+  },
+  {
+    "id": 401,
+    "en": "be known as sb/sth",
+    "level": "B1"
+  },
+  {
+    "id": 402,
+    "en": "benefit from sth",
+    "level": "B1"
+  },
+  {
+    "id": 403,
+    "en": "be supposed to do sth",
+    "level": "B1",
+    "examples": [
+      "be supposed to be sth"
+    ]
+  },
+  {
+    "id": 404,
+    "en": "break up",
+    "level": "B1",
+    "examples": [
+      "break up with sb"
+    ]
+  },
+  {
+    "id": 405,
+    "en": "by the time (that)…",
+    "level": "B1"
+  },
+  {
+    "id": 406,
+    "en": "can’t afford sth",
+    "level": "B1",
+    "examples": [
+      "can’t afford to do sth"
+    ]
+  },
+  {
+    "id": 407,
+    "en": "care for sb",
+    "level": "B1"
+  },
+  {
+    "id": 408,
+    "en": "caused by sth",
+    "level": "B1"
+  },
+  {
+    "id": 409,
+    "en": "check sb/sth out",
+    "level": "B1"
+  },
+  {
+    "id": 410,
+    "en": "choose to do sth",
+    "level": "B1"
+  },
+  {
+    "id": 411,
+    "en": "clean up",
+    "level": "B1",
+    "examples": [
+      "clean sth up"
+    ]
+  },
+  {
+    "id": 412,
+    "en": "click on sth",
+    "level": "B1"
+  },
+  {
+    "id": 413,
+    "en": "come up with sth",
+    "level": "B1"
+  },
+  {
+    "id": 414,
+    "en": "compared with sth",
+    "level": "B1"
+  },
+  {
+    "id": 415,
+    "en": "concentrate on sth",
+    "level": "B1"
+  },
+  {
+    "id": 416,
+    "en": "consist of sb/sth",
+    "level": "B1"
+  },
+  {
+    "id": 417,
+    "en": "decide on sth",
+    "level": "B1"
+  },
+  {
+    "id": 418,
+    "en": "depending on",
+    "level": "B1"
+  },
+  {
+    "id": 419,
+    "en": "developing countries",
+    "level": "B1"
+  },
+  {
+    "id": 420,
+    "en": "due to sb/sth",
+    "level": "B1"
+  },
+  {
+    "id": 421,
+    "en": "economic growth",
+    "level": "B1"
+  },
+  {
+    "id": 422,
+    "en": "end up",
+    "level": "B1"
+  },
+  {
+    "id": 423,
+    "en": "even if",
+    "level": "B1"
+  },
+  {
+    "id": 424,
+    "en": "even though",
+    "level": "B1"
+  },
+  {
+    "id": 425,
+    "en": "exactly the same",
+    "level": "B1"
+  },
+  {
+    "id": 426,
+    "en": "experience in sth",
+    "level": "B1"
+  },
+  {
+    "id": 427,
+    "en": "fail to do sth",
+    "level": "B1"
+  },
+  {
+    "id": 428,
+    "en": "fall asleep",
+    "level": "B1"
+  },
+  {
+    "id": 429,
+    "en": "far more",
+    "level": "B1",
+    "examples": [
+      "far more important",
+      "far more opportunities"
+    ]
+  },
+  {
+    "id": 430,
+    "en": "far too",
+    "level": "B1",
+    "examples": [
+      "far too much homework"
+    ]
+  },
+  {
+    "id": 431,
+    "en": "fed up",
+    "level": "B1"
+  },
+  {
+    "id": 432,
+    "en": "for a while",
+    "level": "B1"
+  },
+  {
+    "id": 433,
+    "en": "for free",
+    "level": "B1"
+  },
+  {
+    "id": 434,
+    "en": "for instance",
+    "level": "B1"
+  },
+  {
+    "id": 435,
+    "en": "for life",
+    "level": "B1",
+    "examples": [
+      "a job for life"
+    ]
+  },
+  {
+    "id": 436,
+    "en": "for long",
+    "level": "B1"
+  },
+  {
+    "id": 437,
+    "en": "for some time",
+    "level": "B1"
+  },
+  {
+    "id": 438,
+    "en": "get on with sb",
+    "level": "B1"
+  },
+  {
+    "id": 439,
+    "en": "get to know sb",
+    "level": "B1"
+  },
+  {
+    "id": 440,
+    "en": "get used to sth",
+    "level": "B1",
+    "examples": [
+      "get used to doing sth"
+    ]
+  },
+  {
+    "id": 441,
+    "en": "global warming",
+    "level": "B1"
+  },
+  {
+    "id": 442,
+    "en": "go ahead",
+    "level": "B1",
+    "examples": [
+      "go ahead with sth"
+    ]
+  },
+  {
+    "id": 443,
+    "en": "go wrong",
+    "level": "B1"
+  },
+  {
+    "id": 444,
+    "en": "growth in sth",
+    "level": "B1"
+  },
+  {
+    "id": 445,
+    "en": "have no idea",
+    "level": "B1"
+  },
+  {
+    "id": 446,
+    "en": "have sth in common",
+    "level": "B1",
+    "examples": [
+      "have sth in common with sb",
+      "have sth in common with sth"
+    ]
+  },
+  {
+    "id": 447,
+    "en": "hear of sb/sth",
+    "level": "B1"
+  },
+  {
+    "id": 448,
+    "en": "heart disease",
+    "level": "B1"
+  },
+  {
+    "id": 449,
+    "en": "high street",
+    "level": "B1"
+  },
+  {
+    "id": 450,
+    "en": "higher education",
+    "level": "B1"
+  },
+  {
+    "id": 451,
+    "en": "if I were you",
+    "level": "B1"
+  },
+  {
+    "id": 452,
+    "en": "in addition",
+    "level": "B1",
+    "examples": [
+      "in addition to sb/sth"
+    ]
+  },
+  {
+    "id": 453,
+    "en": "in a way that...",
+    "level": "B1"
+  },
+  {
+    "id": 454,
+    "en": "in case…",
+    "level": "B1",
+    "examples": [
+      "just in case…"
+    ]
+  },
+  {
+    "id": 455,
+    "en": "in charge of sb/sth",
+    "level": "B1"
+  },
+  {
+    "id": 456,
+    "en": "in contrast",
+    "level": "B1",
+    "examples": [
+      "in contrast to sb/sth"
+    ]
+  },
+  {
+    "id": 457,
+    "en": "in favour of sb/sth",
+    "level": "B1"
+  },
+  {
+    "id": 458,
+    "en": "in general",
+    "level": "B1"
+  },
+  {
+    "id": 459,
+    "en": "in order of sth",
+    "level": "B1"
+  },
+  {
+    "id": 460,
+    "en": "in order to do sth",
+    "level": "B1"
+  },
+  {
+    "id": 461,
+    "en": "in other words",
+    "level": "B1"
+  },
+  {
+    "id": 462,
+    "en": "in particular",
+    "level": "B1"
+  },
+  {
+    "id": 463,
+    "en": "in public",
+    "level": "B1"
+  },
+  {
+    "id": 464,
+    "en": "in recent years",
+    "level": "B1"
+  },
+  {
+    "id": 465,
+    "en": "in response to sth",
+    "level": "B1"
+  },
+  {
+    "id": 466,
+    "en": "in terms of sth",
+    "level": "B1"
+  },
+  {
+    "id": 467,
+    "en": "in the case of sth",
+    "level": "B1"
+  },
+  {
+    "id": 468,
+    "en": "in the form of sb/sth",
+    "level": "B1"
+  },
+  {
+    "id": 469,
+    "en": "in the way (that)…",
+    "level": "B1"
+  },
+  {
+    "id": 470,
+    "en": "in this case",
+    "level": "B1"
+  },
+  {
+    "id": 471,
+    "en": "in time",
+    "level": "B1",
+    "examples": [
+      "in time for sth",
+      "in time to do sth"
+    ]
+  },
+  {
+    "id": 472,
+    "en": "in touch",
+    "level": "B1",
+    "examples": [
+      "be in touch",
+      "get in touch",
+      "keep in touch",
+      "in touch with sb"
+    ]
+  },
+  {
+    "id": 473,
+    "en": "I wonder if…",
+    "level": "B1"
+  },
+  {
+    "id": 474,
+    "en": "leave sb/sth out",
+    "level": "B1"
+  },
+  {
+    "id": 475,
+    "en": "likely to do sth",
+    "level": "B1"
+  },
+  {
+    "id": 476,
+    "en": "look forward to sth",
+    "level": "B1"
+  },
+  {
+    "id": 477,
+    "en": "look out",
+    "level": "B1"
+  },
+  {
+    "id": 478,
+    "en": "make a difference",
+    "level": "B1"
+  },
+  {
+    "id": 479,
+    "en": "make sth up",
+    "level": "B1"
+  },
+  {
+    "id": 480,
+    "en": "manage to do sth",
+    "level": "B1"
+  },
+  {
+    "id": 481,
+    "en": "mean to do sth",
+    "level": "B1",
+    "examples": [
+      "I didn’t mean to."
+    ]
+  },
+  {
+    "id": 482,
+    "en": "more and more",
+    "level": "B1"
+  },
+  {
+    "id": 483,
+    "en": "move on",
+    "level": "B1",
+    "examples": [
+      "move on to sth"
+    ]
+  },
+  {
+    "id": 484,
+    "en": "no longer",
+    "level": "B1",
+    "examples": [
+      "not any longer"
+    ]
+  },
+  {
+    "id": 485,
+    "en": "no more than…",
+    "level": "B1"
+  },
+  {
+    "id": 486,
+    "en": "not even",
+    "level": "B1",
+    "examples": [
+      "I didn’t even see it."
+    ]
+  },
+  {
+    "id": 487,
+    "en": "not necessarily",
+    "level": "B1"
+  },
+  {
+    "id": 488,
+    "en": "not only",
+    "level": "B1",
+    "examples": [
+      "not only… but also…"
+    ]
+  },
+  {
+    "id": 489,
+    "en": "on a regular basis",
+    "level": "B1"
+  },
+  {
+    "id": 490,
+    "en": "on my own",
+    "level": "B1",
+    "examples": [
+      "on their own",
+      "on your own"
+    ]
+  },
+  {
+    "id": 491,
+    "en": "on the other hand",
+    "level": "B1"
+  },
+  {
+    "id": 492,
+    "en": "on the street",
+    "level": "B1",
+    "examples": [
+      "on the streets"
+    ]
+  },
+  {
+    "id": 493,
+    "en": "on the way",
+    "level": "B1"
+  },
+  {
+    "id": 494,
+    "en": "or something",
+    "level": "B1",
+    "examples": [
+      "or somebody",
+      "or somewhere"
+    ]
+  },
+  {
+    "id": 495,
+    "en": "or two",
+    "level": "B1",
+    "examples": [
+      "a day or two",
+      "a moment or two",
+      "a pound or two"
+    ]
+  },
+  {
+    "id": 496,
+    "en": "ought to",
+    "level": "B1"
+  },
+  {
+    "id": 497,
+    "en": "out there",
+    "level": "B1"
+  },
+  {
+    "id": 498,
+    "en": "over the years",
+    "level": "B1"
+  },
+  {
+    "id": 499,
+    "en": "over time",
+    "level": "B1"
+  },
+  {
+    "id": 500,
+    "en": "participate in sth",
+    "level": "B1"
+  },
+  {
+    "id": 501,
+    "en": "point of view",
+    "level": "B1"
+  },
+  {
+    "id": 502,
+    "en": "point out",
+    "level": "B1",
+    "examples": [
+      "point sth out",
+      "point out that…"
+    ]
+  },
+  {
+    "id": 503,
+    "en": "prepared to do sth",
+    "level": "B1"
+  },
+  {
+    "id": 504,
+    "en": "primary school",
+    "level": "B1"
+  },
+  {
+    "id": 505,
+    "en": "prime minister",
+    "level": "B1"
+  },
+  {
+    "id": 506,
+    "en": "put sth up",
+    "level": "B1"
+  },
+  {
+    "id": 507,
+    "en": "quite a…",
+    "level": "B1",
+    "examples": [
+      "quite a good player",
+      "quite a long time"
+    ]
+  },
+  {
+    "id": 508,
+    "en": "raise money",
+    "level": "B1",
+    "examples": [
+      "raise money for sth"
+    ]
+  },
+  {
+    "id": 509,
+    "en": "rather than",
+    "level": "B1"
+  },
+  {
+    "id": 510,
+    "en": "reaction to sth",
+    "level": "B1"
+  },
+  {
+    "id": 511,
+    "en": "relate to sth/sb",
+    "level": "B1",
+    "examples": [
+      "relating to sth/sb"
+    ]
+  },
+  {
+    "id": 512,
+    "en": "related to sth/sb",
+    "level": "B1"
+  },
+  {
+    "id": 513,
+    "en": "respect for sb/sth",
+    "level": "B1"
+  },
+  {
+    "id": 514,
+    "en": "result in sth",
+    "level": "B1"
+  },
+  {
+    "id": 515,
+    "en": "rise in sth",
+    "level": "B1",
+    "examples": [
+      "a rise in the number of visitors"
+    ]
+  },
+  {
+    "id": 516,
+    "en": "run out",
+    "level": "B1"
+  },
+  {
+    "id": 517,
+    "en": "run out of sth",
+    "level": "B1"
+  },
+  {
+    "id": 518,
+    "en": "search engine",
+    "level": "B1"
+  },
+  {
+    "id": 519,
+    "en": "secondary school",
+    "level": "B1"
+  },
+  {
+    "id": 520,
+    "en": "set sth up",
+    "level": "B1"
+  },
+  {
+    "id": 521,
+    "en": "slow down",
+    "level": "B1"
+  },
+  {
+    "id": 522,
+    "en": "so far",
+    "level": "B1"
+  },
+  {
+    "id": 523,
+    "en": "some kind of…",
+    "level": "B1"
+  },
+  {
+    "id": 524,
+    "en": "succeed in doing sth",
+    "level": "B1"
+  },
+  {
+    "id": 525,
+    "en": "suffer from sth",
+    "level": "B1"
+  },
+  {
+    "id": 526,
+    "en": "sure to do sth",
+    "level": "B1"
+  },
+  {
+    "id": 527,
+    "en": "take sb/sth on",
+    "level": "B1"
+  },
+  {
+    "id": 528,
+    "en": "take up sth",
+    "level": "B1",
+    "examples": [
+      "take up too much room"
+    ]
+  },
+  {
+    "id": 529,
+    "en": "take sth up",
+    "level": "B1",
+    "examples": [
+      "take up golf"
+    ]
+  },
+  {
+    "id": 530,
+    "en": "tell the truth",
+    "level": "B1"
+  },
+  {
+    "id": 531,
+    "en": "tend to do sth",
+    "level": "B1",
+    "examples": [
+      "tend to be sth"
+    ]
+  },
+  {
+    "id": 532,
+    "en": "thanks to sb/sth",
+    "level": "B1"
+  },
+  {
+    "id": 533,
+    "en": "that’s it",
+    "level": "B1"
+  },
+  {
+    "id": 534,
+    "en": "the case",
+    "level": "B1",
+    "examples": [
+      "be the case that…"
+    ]
+  },
+  {
+    "id": 535,
+    "en": "the fact that…",
+    "level": "B1"
+  },
+  {
+    "id": 536,
+    "en": "those who…",
+    "level": "B1",
+    "examples": [
+      "There are those who say…"
+    ]
+  },
+  {
+    "id": 537,
+    "en": "to do with sb/sth",
+    "level": "B1",
+    "examples": [
+      "be to do with sb/sth",
+      "have to do with sb/sth"
+    ]
+  },
+  {
+    "id": 538,
+    "en": "together with",
+    "level": "B1"
+  },
+  {
+    "id": 539,
+    "en": "too bad",
+    "level": "B1"
+  },
+  {
+    "id": 540,
+    "en": "try and…",
+    "level": "B1"
+  },
+  {
+    "id": 541,
+    "en": "turn out",
+    "level": "B1",
+    "examples": [
+      "turn out to be sth"
+    ]
+  },
+  {
+    "id": 542,
+    "en": "turn sth up",
+    "level": "B1"
+  },
+  {
+    "id": 543,
+    "en": "unable to do sth",
+    "level": "B1"
+  },
+  {
+    "id": 544,
+    "en": "up to sth",
+    "level": "B1",
+    "examples": [
+      "up to 60 miles per hour"
+    ]
+  },
+  {
+    "id": 545,
+    "en": "way of life",
+    "level": "B1"
+  },
+  {
+    "id": 546,
+    "en": "well known",
+    "level": "B1"
+  },
+  {
+    "id": 547,
+    "en": "work on sth",
+    "level": "B1"
+  },
+  {
+    "id": 548,
+    "en": "work sth out",
+    "level": "B1"
+  },
+  {
+    "id": 549,
+    "en": "wrong with sb/sth",
+    "level": "B1"
+  },
+  {
+    "id": 550,
+    "en": "you see",
+    "level": "B1"
+  },
+  {
+    "id": 551,
+    "en": "a bit of a…",
+    "level": "B2"
+  },
+  {
+    "id": 552,
+    "en": "account for sth",
+    "level": "B2"
+  },
+  {
+    "id": 553,
+    "en": "accused of sth",
+    "level": "B2"
+  },
+  {
+    "id": 554,
+    "en": "act as sth",
+    "level": "B2"
+  },
+  {
+    "id": 555,
+    "en": "aimed at sb",
+    "level": "B2"
+  },
+  {
+    "id": 556,
+    "en": "aimed at doing sth",
+    "level": "B2"
+  },
+  {
+    "id": 557,
+    "en": "all the way",
+    "level": "B2"
+  },
+  {
+    "id": 558,
+    "en": "a means of sth",
+    "level": "B2",
+    "examples": [
+      "a means of communication",
+      "a means of transport"
+    ]
+  },
+  {
+    "id": 559,
+    "en": "appeal to sb",
+    "level": "B2"
+  },
+  {
+    "id": 560,
+    "en": "apply to sb/sth",
+    "level": "B2"
+  },
+  {
+    "id": 561,
+    "en": "as a whole",
+    "level": "B2"
+  },
+  {
+    "id": 562,
+    "en": "as far as I am concerned",
+    "level": "B2"
+  },
+  {
+    "id": 563,
+    "en": "as follows…",
+    "level": "B2"
+  },
+  {
+    "id": 564,
+    "en": "as for sb/sth",
+    "level": "B2"
+  },
+  {
+    "id": 565,
+    "en": "as long as…",
+    "level": "B2"
+  },
+  {
+    "id": 566,
+    "en": "associated with sth",
+    "level": "B2",
+    "examples": [
+      "associated with doing sth"
+    ]
+  },
+  {
+    "id": 567,
+    "en": "as though…",
+    "level": "B2"
+  },
+  {
+    "id": 568,
+    "en": "at once",
+    "level": "B2"
+  },
+  {
+    "id": 569,
+    "en": "at present",
+    "level": "B2"
+  },
+  {
+    "id": 570,
+    "en": "at some point",
+    "level": "B2"
+  },
+  {
+    "id": 571,
+    "en": "at the end of the day",
+    "level": "B2"
+  },
+  {
+    "id": 572,
+    "en": "at this point",
+    "level": "B2"
+  },
+  {
+    "id": 573,
+    "en": "at this stage",
+    "level": "B2"
+  },
+  {
+    "id": 574,
+    "en": "awareness of sth",
+    "level": "B2"
+  },
+  {
+    "id": 575,
+    "en": "back sb/sth up",
+    "level": "B2"
+  },
+  {
+    "id": 576,
+    "en": "be charged with sth",
+    "level": "B2",
+    "examples": [
+      "be charged with doing sth"
+    ]
+  },
+  {
+    "id": 577,
+    "en": "be derived from sth",
+    "level": "B2"
+  },
+  {
+    "id": 578,
+    "en": "be expected to do sth",
+    "level": "B2"
+  },
+  {
+    "id": 579,
+    "en": "be known to do sth",
+    "level": "B2"
+  },
+  {
+    "id": 580,
+    "en": "be made up of sth",
+    "level": "B2"
+  },
+  {
+    "id": 581,
+    "en": "be surrounded by sb/sth",
+    "level": "B2"
+  },
+  {
+    "id": 582,
+    "en": "be to blame",
+    "level": "B2",
+    "examples": [
+      "be to blame for sth"
+    ]
+  },
+  {
+    "id": 583,
+    "en": "both sides",
+    "level": "B2",
+    "examples": [
+      "both sides of the argument",
+      "on both sides"
+    ]
+  },
+  {
+    "id": 584,
+    "en": "bound to do sth",
+    "level": "B2",
+    "examples": [
+      "bound to be sth"
+    ]
+  },
+  {
+    "id": 585,
+    "en": "bring sb up",
+    "level": "B2"
+  },
+  {
+    "id": 586,
+    "en": "by now",
+    "level": "B2"
+  },
+  {
+    "id": 587,
+    "en": "call for sth",
+    "level": "B2"
+  },
+  {
+    "id": 588,
+    "en": "case study",
+    "level": "B2"
+  },
+  {
+    "id": 589,
+    "en": "come across sb/sth",
+    "level": "B2"
+  },
+  {
+    "id": 590,
+    "en": "come true",
+    "level": "B2",
+    "examples": [
+      "a dream come true"
+    ]
+  },
+  {
+    "id": 591,
+    "en": "concerned about sth",
+    "level": "B2"
+  },
+  {
+    "id": 592,
+    "en": "concerned with sth",
+    "level": "B2"
+  },
+  {
+    "id": 593,
+    "en": "confidence in sb/sth",
+    "level": "B2"
+  },
+  {
+    "id": 594,
+    "en": "contribute to sth",
+    "level": "B2"
+  },
+  {
+    "id": 595,
+    "en": "control over sb/sth",
+    "level": "B2"
+  },
+  {
+    "id": 596,
+    "en": "cope with sth",
+    "level": "B2"
+  },
+  {
+    "id": 597,
+    "en": "decline in sth",
+    "level": "B2",
+    "examples": [
+      "a decline in student numbers"
+    ]
+  },
+  {
+    "id": 598,
+    "en": "dependent on sb/sth",
+    "level": "B2"
+  },
+  {
+    "id": 599,
+    "en": "despite the fact that…",
+    "level": "B2"
+  },
+  {
+    "id": 600,
+    "en": "draw attention to sb/sth",
+    "level": "B2"
+  },
+  {
+    "id": 601,
+    "en": "engage in sth",
+    "level": "B2"
+  },
+  {
+    "id": 602,
+    "en": "engaged in sth",
+    "level": "B2"
+  },
+  {
+    "id": 603,
+    "en": "ever since(…)",
+    "level": "B2"
+  },
+  {
+    "id": 604,
+    "en": "exposure to sth",
+    "level": "B2"
+  },
+  {
+    "id": 605,
+    "en": "far from sth",
+    "level": "B2",
+    "examples": [
+      "far from doing sth"
+    ]
+  },
+  {
+    "id": 606,
+    "en": "figure sb/sth out",
+    "level": "B2"
+  },
+  {
+    "id": 607,
+    "en": "find yourself doing sth",
+    "level": "B2"
+  },
+  {
+    "id": 608,
+    "en": "get in",
+    "level": "B2",
+    "examples": [
+      "get into sth",
+      "The train got in late."
+    ]
+  },
+  {
+    "id": 609,
+    "en": "get over sth/sb",
+    "level": "B2",
+    "examples": [
+      "You’ll get over it."
+    ]
+  },
+  {
+    "id": 610,
+    "en": "get rid of sb/sth",
+    "level": "B2"
+  },
+  {
+    "id": 611,
+    "en": "go off",
+    "level": "B2",
+    "examples": [
+      "She went off to get a drink.",
+      "A bomb went off.",
+      "The alarm went off.",
+      "The lights went off."
+    ]
+  },
+  {
+    "id": 612,
+    "en": "go on to do sth",
+    "level": "B2"
+  },
+  {
+    "id": 613,
+    "en": "go through sth",
+    "level": "B2"
+  },
+  {
+    "id": 614,
+    "en": "had better",
+    "level": "B2"
+  },
+  {
+    "id": 615,
+    "en": "hang on",
+    "level": "B2"
+  },
+  {
+    "id": 616,
+    "en": "human being",
+    "level": "B2"
+  },
+  {
+    "id": 617,
+    "en": "human rights",
+    "level": "B2"
+  },
+  {
+    "id": 618,
+    "en": "if only…",
+    "level": "B2"
+  },
+  {
+    "id": 619,
+    "en": "I have to say…",
+    "level": "B2"
+  },
+  {
+    "id": 620,
+    "en": "in action",
+    "level": "B2"
+  },
+  {
+    "id": 621,
+    "en": "in advance",
+    "level": "B2"
+  },
+  {
+    "id": 622,
+    "en": "in an attempt to do sth",
+    "level": "B2"
+  },
+  {
+    "id": 623,
+    "en": "in part",
+    "level": "B2"
+  },
+  {
+    "id": 624,
+    "en": "in place",
+    "level": "B2"
+  },
+  {
+    "id": 625,
+    "en": "in relation to sb/sth",
+    "level": "B2"
+  },
+  {
+    "id": 626,
+    "en": "in spite of sth",
+    "level": "B2"
+  },
+  {
+    "id": 627,
+    "en": "in the first place",
+    "level": "B2"
+  },
+  {
+    "id": 628,
+    "en": "in the near future",
+    "level": "B2"
+  },
+  {
+    "id": 629,
+    "en": "in turn",
+    "level": "B2"
+  },
+  {
+    "id": 630,
+    "en": "investment in sth",
+    "level": "B2"
+  },
+  {
+    "id": 631,
+    "en": "I would say...",
+    "level": "B2"
+  },
+  {
+    "id": 632,
+    "en": "loads of sb/sth",
+    "level": "B2"
+  },
+  {
+    "id": 633,
+    "en": "mental health",
+    "level": "B2"
+  },
+  {
+    "id": 634,
+    "en": "more or less",
+    "level": "B2"
+  },
+  {
+    "id": 635,
+    "en": "no doubt",
+    "level": "B2"
+  },
+  {
+    "id": 636,
+    "en": "no matter…",
+    "level": "B2",
+    "examples": [
+      "no matter how…",
+      "no matter what…"
+    ]
+  },
+  {
+    "id": 637,
+    "en": "nothing but",
+    "level": "B2"
+  },
+  {
+    "id": 638,
+    "en": "on board",
+    "level": "B2"
+  },
+  {
+    "id": 639,
+    "en": "once again",
+    "level": "B2"
+  },
+  {
+    "id": 640,
+    "en": "one another",
+    "level": "B2"
+  },
+  {
+    "id": 641,
+    "en": "on the basis of sth",
+    "level": "B2"
+  },
+  {
+    "id": 642,
+    "en": "on the one hand",
+    "level": "B2"
+  },
+  {
+    "id": 643,
+    "en": "opposed to sth",
+    "level": "B2"
+  },
+  {
+    "id": 644,
+    "en": "or so",
+    "level": "B2"
+  },
+  {
+    "id": 645,
+    "en": "other than",
+    "level": "B2"
+  },
+  {
+    "id": 646,
+    "en": "potential for sth",
+    "level": "B2"
+  },
+  {
+    "id": 647,
+    "en": "pretty much",
+    "level": "B2"
+  },
+  {
+    "id": 648,
+    "en": "prior to",
+    "level": "B2"
+  },
+  {
+    "id": 649,
+    "en": "prove to be sth",
+    "level": "B2"
+  },
+  {
+    "id": 650,
+    "en": "put sth forward",
+    "level": "B2"
+  },
+  {
+    "id": 651,
+    "en": "put sth together",
+    "level": "B2"
+  },
+  {
+    "id": 652,
+    "en": "quality of life",
+    "level": "B2"
+  },
+  {
+    "id": 653,
+    "en": "ranging from",
+    "level": "B2",
+    "examples": [
+      "prices ranging from €25 to €60"
+    ]
+  },
+  {
+    "id": 654,
+    "en": "regarded as sth",
+    "level": "B2"
+  },
+  {
+    "id": 655,
+    "en": "relevant to sb/sth",
+    "level": "B2"
+  },
+  {
+    "id": 656,
+    "en": "rely on sb/sth",
+    "level": "B2"
+  },
+  {
+    "id": 657,
+    "en": "role model",
+    "level": "B2"
+  },
+  {
+    "id": 658,
+    "en": "set out",
+    "level": "B2"
+  },
+  {
+    "id": 659,
+    "en": "short of sth",
+    "level": "B2"
+  },
+  {
+    "id": 660,
+    "en": "so as to do sth",
+    "level": "B2"
+  },
+  {
+    "id": 661,
+    "en": "something like…",
+    "level": "B2"
+  },
+  {
+    "id": 662,
+    "en": "sort sb/sth/yourself out",
+    "level": "B2"
+  },
+  {
+    "id": 663,
+    "en": "stick to sth",
+    "level": "B2"
+  },
+  {
+    "id": 664,
+    "en": "subject to sth",
+    "level": "B2"
+  },
+  {
+    "id": 665,
+    "en": "sum up",
+    "level": "B2",
+    "examples": [
+      "sum sth up"
+    ]
+  },
+  {
+    "id": 666,
+    "en": "take advantage of sb/sth",
+    "level": "B2"
+  },
+  {
+    "id": 667,
+    "en": "take sth into account",
+    "level": "B2"
+  },
+  {
+    "id": 668,
+    "en": "take over",
+    "level": "B2",
+    "examples": [
+      "take over from sb"
+    ]
+  },
+  {
+    "id": 669,
+    "en": "that is",
+    "level": "B2"
+  },
+  {
+    "id": 670,
+    "en": "the vast majority of sth",
+    "level": "B2"
+  },
+  {
+    "id": 671,
+    "en": "turn into sth",
+    "level": "B2"
+  },
+  {
+    "id": 672,
+    "en": "up to sb",
+    "level": "B2"
+  },
+  {
+    "id": 673,
+    "en": "when it comes to sth",
+    "level": "B2",
+    "examples": [
+      "when it comes to doing sth"
+    ]
+  },
+  {
+    "id": 674,
+    "en": "whether or not…",
+    "level": "B2"
+  },
+  {
+    "id": 675,
+    "en": "would rather…",
+    "level": "B2"
+  },
+  {
+    "id": 676,
+    "en": "above all",
+    "level": "C1"
+  },
+  {
+    "id": 677,
+    "en": "all but",
+    "level": "C1"
+  },
+  {
+    "id": 678,
+    "en": "all the more",
+    "level": "C1"
+  },
+  {
+    "id": 679,
+    "en": "as far as sb/sth is concerned",
+    "level": "C1"
+  },
+  {
+    "id": 680,
+    "en": "as of…",
+    "level": "C1"
+  },
+  {
+    "id": 681,
+    "en": "as opposed to",
+    "level": "C1"
+  },
+  {
+    "id": 682,
+    "en": "as such",
+    "level": "C1"
+  },
+  {
+    "id": 683,
+    "en": "as to sth",
+    "level": "C1",
+    "examples": [
+      "as to how…",
+      "as to whether…"
+    ]
+  },
+  {
+    "id": 684,
+    "en": "at the expense of sb/sth",
+    "level": "C1"
+  },
+  {
+    "id": 685,
+    "en": "at the hands of sb",
+    "level": "C1"
+  },
+  {
+    "id": 686,
+    "en": "back and forth",
+    "level": "C1"
+  },
+  {
+    "id": 687,
+    "en": "bear sb/sth in mind",
+    "level": "C1",
+    "examples": [
+      "bear in mind that…",
+      "keep sb/sth in mind",
+      "keep in mind that…"
+    ]
+  },
+  {
+    "id": 688,
+    "en": "be attributed to sb",
+    "level": "C1"
+  },
+  {
+    "id": 689,
+    "en": "be entitled to sth",
+    "level": "C1"
+  },
+  {
+    "id": 690,
+    "en": "be found to do sth",
+    "level": "C1"
+  },
+  {
+    "id": 691,
+    "en": "be meant to do sth",
+    "level": "C1"
+  },
+  {
+    "id": 692,
+    "en": "be reported to be sth",
+    "level": "C1",
+    "examples": [
+      "be reported to have sth"
+    ]
+  },
+  {
+    "id": 693,
+    "en": "be said to be sth",
+    "level": "C1",
+    "examples": [
+      "be said to have sth"
+    ]
+  },
+  {
+    "id": 694,
+    "en": "bring sth about",
+    "level": "C1"
+  },
+  {
+    "id": 695,
+    "en": "bring sth up",
+    "level": "C1"
+  },
+  {
+    "id": 696,
+    "en": "by means of sth",
+    "level": "C1"
+  },
+  {
+    "id": 697,
+    "en": "by no means",
+    "level": "C1"
+  },
+  {
+    "id": 698,
+    "en": "call on sb",
+    "level": "C1",
+    "examples": [
+      "call on sb to do sth"
+    ]
+  },
+  {
+    "id": 699,
+    "en": "consistent with sth",
+    "level": "C1"
+  },
+  {
+    "id": 700,
+    "en": "dedicated to sth",
+    "level": "C1"
+  },
+  {
+    "id": 701,
+    "en": "deprive sb/sth of sth",
+    "level": "C1"
+  },
+  {
+    "id": 702,
+    "en": "dispose of sb/sth",
+    "level": "C1"
+  },
+  {
+    "id": 703,
+    "en": "follow sth up",
+    "level": "C1"
+  },
+  {
+    "id": 704,
+    "en": "for that matter",
+    "level": "C1"
+  },
+  {
+    "id": 705,
+    "en": "for the benefit of sb",
+    "level": "C1"
+  },
+  {
+    "id": 706,
+    "en": "for the sake of sb/sth",
+    "level": "C1"
+  },
+  {
+    "id": 707,
+    "en": "get away with sth",
+    "level": "C1"
+  },
+  {
+    "id": 708,
+    "en": "given that…",
+    "level": "C1"
+  },
+  {
+    "id": 709,
+    "en": "have sb/sth in mind",
+    "level": "C1",
+    "examples": [
+      "have sb/sth in mind for sth"
+    ]
+  },
+  {
+    "id": 710,
+    "en": "have nothing to do with sb/sth",
+    "level": "C1",
+    "examples": [
+      "be nothing to do with sb/sth"
+    ]
+  },
+  {
+    "id": 711,
+    "en": "in accordance with sth",
+    "level": "C1"
+  },
+  {
+    "id": 712,
+    "en": "in any case",
+    "level": "C1"
+  },
+  {
+    "id": 713,
+    "en": "in a position to do sth",
+    "level": "C1"
+  },
+  {
+    "id": 714,
+    "en": "in conjunction with sb/sth",
+    "level": "C1"
+  },
+  {
+    "id": 715,
+    "en": "in connection with sb/sth",
+    "level": "C1"
+  },
+  {
+    "id": 716,
+    "en": "in effect",
+    "level": "C1"
+  },
+  {
+    "id": 717,
+    "en": "in full",
+    "level": "C1"
+  },
+  {
+    "id": 718,
+    "en": "in line with sth",
+    "level": "C1"
+  },
+  {
+    "id": 719,
+    "en": "in practice",
+    "level": "C1"
+  },
+  {
+    "id": 720,
+    "en": "in respect of sth",
+    "level": "C1"
+  },
+  {
+    "id": 721,
+    "en": "in such a way (that)…",
+    "level": "C1"
+  },
+  {
+    "id": 722,
+    "en": "in the absence of sb/sth",
+    "level": "C1"
+  },
+  {
+    "id": 723,
+    "en": "in the course of…",
+    "level": "C1"
+  },
+  {
+    "id": 724,
+    "en": "in the event of sth",
+    "level": "C1"
+  },
+  {
+    "id": 725,
+    "en": "in the face of sth",
+    "level": "C1"
+  },
+  {
+    "id": 726,
+    "en": "in the hands of sb",
+    "level": "C1"
+  },
+  {
+    "id": 727,
+    "en": "in the light of sth",
+    "level": "C1",
+    "examples": [
+      "in light of sth"
+    ]
+  },
+  {
+    "id": 728,
+    "en": "in the meantime",
+    "level": "C1"
+  },
+  {
+    "id": 729,
+    "en": "in the midst of sth",
+    "level": "C1"
+  },
+  {
+    "id": 730,
+    "en": "in the presence of sb",
+    "level": "C1",
+    "examples": [
+      "in the presence of sth"
+    ]
+  },
+  {
+    "id": 731,
+    "en": "in the wake of sb/sth",
+    "level": "C1"
+  },
+  {
+    "id": 732,
+    "en": "involvement in sth",
+    "level": "C1"
+  },
+  {
+    "id": 733,
+    "en": "let alone",
+    "level": "C1"
+  },
+  {
+    "id": 734,
+    "en": "little more than…",
+    "level": "C1"
+  },
+  {
+    "id": 735,
+    "en": "live on sth",
+    "level": "C1"
+  },
+  {
+    "id": 736,
+    "en": "may well",
+    "level": "C1"
+  },
+  {
+    "id": 737,
+    "en": "nothing like",
+    "level": "C1"
+  },
+  {
+    "id": 738,
+    "en": "not to mention",
+    "level": "C1"
+  },
+  {
+    "id": 739,
+    "en": "on behalf of sb",
+    "level": "C1"
+  },
+  {
+    "id": 740,
+    "en": "on the part of sb",
+    "level": "C1"
+  },
+  {
+    "id": 741,
+    "en": "over the course of…",
+    "level": "C1"
+  },
+  {
+    "id": 742,
+    "en": "put it",
+    "level": "C1",
+    "examples": [
+      "How shall I put it?"
+    ]
+  },
+  {
+    "id": 743,
+    "en": "seek to do sth",
+    "level": "C1"
+  },
+  {
+    "id": 744,
+    "en": "set to do sth",
+    "level": "C1"
+  },
+  {
+    "id": 745,
+    "en": "the extent to which…",
+    "level": "C1"
+  },
+  {
+    "id": 746,
+    "en": "to date",
+    "level": "C1",
+    "examples": [
+      "his best work to date"
+    ]
+  },
+  {
+    "id": 747,
+    "en": "up against sth",
+    "level": "C1"
+  },
+  {
+    "id": 748,
+    "en": "with regard to sb/sth",
+    "level": "C1"
+  },
+  {
+    "id": 749,
+    "en": "with respect to sth",
+    "level": "C1"
+  },
+  {
+    "id": 750,
+    "en": "with the exception of sb/sth",
+    "level": "C1"
+  }
+]
