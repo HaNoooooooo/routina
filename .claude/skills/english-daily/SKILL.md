@@ -86,7 +86,7 @@ date -u -d '+9 hours' +'%Y-%m-%d %A'
 
 ## Notion 설정
 
-- Progress DB data source URL: `collection://170eb259-2eb6-4dbe-a1d1-43e8ffe00399`
+- Progress DB data source URL: `collection://9fcc598c-76e8-403a-b7cc-2f60c634b0e1`
 - 조회/기록 도구: Notion MCP 커넥터의 `notion-query-data-sources`(SQL 모드), `notion-create-pages`
 - 컬럼: `Type`(select: `Sentence` / `Word`), `Item ID`(number), `Text`(title, 영어 원문),
   `Meaning`(text, 한글 뜻), `Learned Date`(date)
