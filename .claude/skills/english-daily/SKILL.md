@@ -87,34 +87,68 @@ date -u -d '+9 hours' +'%Y-%m-%d %A'
 ## Notion 설정
 
 - Progress DB data source URL: `collection://9fcc598c-76e8-403a-b7cc-2f60c634b0e1`
-- 조회/기록 도구: Notion MCP 커넥터의 `notion-query-data-sources`(SQL 모드), `notion-create-pages`
+- 조회/기록 도구: Notion MCP 커넥터의 `notion-query-data-sources`(SQL 모드), `notion-create-pages`,
+  `notion-update-page`(Confirmed/Learned Date 업데이트용)
 - 컬럼: `Type`(select: `Sentence` / `Word`), `Item ID`(number), `Text`(title, 영어 원문),
-  `Meaning`(text, 한글 뜻), `Learned Date`(date)
+  `Meaning`(text, 한글 뜻), `Learned Date`(date), `Confirmed`(checkbox, 사용자가 그날 실제로
+  학습했음을 표시 — 기본 미체크, 아래 "자동 유예 로직" 참고)
 
 > Progress DB가 아직 없으면 이 스킬을 실행하기 전에 먼저 생성해야 한다 (일회성 설정이며, 루틴이
 > 매번 실행할 때마다 하는 작업이 아니다).
 
 ## 처리 순서
 
+### 0. 자동 유예(그레이스) 로직 — 놓친 날 롤백
+
+Discord 웹훅은 발신 전용이라 사용자가 실제로 학습했는지 시스템이 알 방법이 없다. 대신 사용자가
+그날 학습을 마친 뒤 Progress DB에서 해당 항목의 `Confirmed` 체크박스를 **직접 체크**하는 것으로
+"학습 완료"를 표시한다. **아직 `Confirmed`가 안 된 항목이 남아 있으면 다음 학습으로 넘어가지 않고
+같은 항목을 다시 보낸다** — 이것이 "놓친 날 롤백"이다 (바빠서 못 봤으면 다음날도 같은 내용이 오고,
+전체 진도는 그만큼 밀린다).
+
+문장과 단어는 서로 독립적으로 판단한다:
+
+- Progress DB에서 `Type = 'Sentence' AND (Confirmed IS NULL OR Confirmed = false)`인 행을 조회.
+  - **있으면** → 그 행들을 오늘의 문장으로 그대로 재사용한다 (새로 slice/기록하지 않음). 각 행의
+    `Learned Date`만 오늘 날짜로 업데이트한다 (`Item ID`/`Text`/`Meaning`/`Confirmed`는 그대로 —
+    `notion-update-page`로 `Learned Date`만 갱신). 메시지에는 재전송임을 표시한다 (아래 출력 형식
+    참고).
+  - **없으면** → 아래 "신규 학습" 절차대로 새 항목을 진행한다.
+- `Type = 'Word'`도 동일한 규칙을 독립적으로 적용한다 (문장은 밀리고 단어는 안 밀릴 수 있음, 또는
+  그 반대도 가능).
+
+### 신규 학습 (해당 Type에 유예 대상이 없을 때만)
+
 1. 오늘 날짜(KST) 계산.
-2. Progress DB에서 `Type = 'Sentence'`인 행 중 `Item ID` 최댓값 조회 → 없으면 0. 다음 학습 시작
-   ID = 최댓값 + 1.
-3. 동일하게 `Type = 'Word'`의 `Item ID` 최댓값 조회 → 다음 학습 시작 ID.
+2. Progress DB에서 `Type = 'Sentence' AND Confirmed = true`인 행 중 `Item ID` 최댓값 조회 → 없으면
+   0. 다음 학습 시작 ID = 최댓값 + 1. (미확인 행은 최댓값 계산에서 반드시 제외 — 포함시키면 유예
+   로직이 무의미해진다.)
+3. 동일하게 `Type = 'Word' AND Confirmed = true`의 `Item ID` 최댓값 조회 → 다음 학습 시작 ID.
 4. `sentences.json`에서 시작 ID부터 5개 slice (문장 데이터가 소진되어 5개보다 적게 남았으면 있는
    만큼만, 0개면 "전체 학습 완료" 처리).
 5. `words.json`에서 시작 ID부터 10개 slice (동일하게 소진 처리).
-6. Progress DB에서 `Type = 'Sentence' AND Learned Date IN (오늘-1일, 오늘-3일, 오늘-7일)` 조회 →
-   복습 문장 목록.
-7. Progress DB에서 `Type = 'Word' AND Learned Date IN (오늘-1일, 오늘-3일, 오늘-7일)` 조회 → 복습
-   단어 목록.
+
+### 복습
+
+6. Progress DB에서 `Type = 'Sentence' AND Confirmed = true AND Learned Date IN (오늘-1일, 오늘-3일,
+   오늘-7일)` 조회 → 복습 문장 목록. (미확인 항목은 아직 "학습 완료"가 아니므로 복습 대상에서
+   제외.)
+7. Progress DB에서 `Type = 'Word' AND Confirmed = true AND Learned Date IN (오늘-1일, 오늘-3일,
+   오늘-7일)` 조회 → 복습 단어 목록.
    (문장과 단어 모두 동일한 1일/3일/7일 주기로 복습한다.)
-8. 4, 5에서 고른 신규 항목들 각각에 대해 자연스러운 한국어 번역을 생성한 뒤, Progress DB에 새
-   페이지로 기록한다 (`Type`, `Item ID`, `Text`=en, `Meaning`=방금 생성한 번역, `Learned Date`=오늘).
-9. 6, 7에서 조회한 복습 항목들은 재번역하지 않고 Progress DB에 저장되어 있던 `Meaning`을 그대로
-   사용한다.
-10. 4, 5에서 고른 신규 항목들에 대해 위 "오늘의 신규 학습 항목 보강 콘텐츠" 절의 예문/동의어/
-    유의어를 생성한다 (Progress DB에는 저장하지 않음, 메시지 조립에만 사용).
-11. 아래 형식으로 Discord 메시지 3개를 조립해 순서대로 전송한다.
+
+### 기록
+
+8. 0단계에서 유예 재사용 없이 신규로 slice한 항목들 각각에 대해 자연스러운 한국어 번역을 생성한
+   뒤, Progress DB에 새 페이지로 기록한다 (`Type`, `Item ID`, `Text`=en, `Meaning`=방금 생성한 번역,
+   `Learned Date`=오늘, `Confirmed`=미체크).
+9. 0단계에서 유예 재사용한 항목들은 새 페이지를 만들지 않고, 기존 페이지의 `Learned Date`만
+   오늘로 업데이트한다 (`Confirmed`는 미체크 그대로 유지 — 사용자가 이번에 체크해야 넘어간다).
+10. 6, 7에서 조회한 복습 항목들은 재번역하지 않고 Progress DB에 저장되어 있던 `Meaning`을 그대로
+    사용한다.
+11. 오늘 다룰 항목들(유예 재사용이든 신규든 모두)에 대해 위 "오늘의 신규 학습 항목 보강 콘텐츠"
+    절의 예문/동의어/유의어를 생성한다 (Progress DB에는 저장하지 않음, 메시지 조립에만 사용).
+12. 아래 형식으로 Discord 메시지 3개를 조립해 순서대로 전송한다.
 
 ## 출력 형식
 
@@ -124,6 +158,12 @@ Discord 메시지는 **1개당 2000자 제한**이 있고, 예문/동의어/유�
 **메시지 1 — 헤더 + 오늘의 문장:**
 
 영어 문장과 한글 번역은 **항상 줄을 나눠서** 쓴다 (`—`로 한 줄에 붙이지 않음) — 가독성 때문.
+
+오늘의 문장이 0단계 유예 로직으로 인한 **재전송**이면(어제 이전 항목을 `Confirmed` 안 해서 다시
+보내는 경우), "📝 오늘의 문장" 줄 바로 아래에 한 줄 추가한다:
+`⚠️ 아직 확인(Confirmed) 안 하신 항목이라 다시 보내드려요`
+단어도 재전송이면 "🔤 오늘의 단어" 아래에 동일한 형식으로 추가한다(문장/단어 중 하나만 재전송일
+수도 있음 — 그 경우 해당 섹션에만 표시).
 
 ```
 🔄 Routina — 영어 학습
@@ -175,6 +215,9 @@ Discord 메시지는 **1개당 2000자 제한**이 있고, 예문/동의어/유�
 (위와 동일 형식)
 
 ---
+
+✅ 오늘 항목 학습 후 Notion Progress DB에서 `Confirmed`를 체크해주세요!
+   체크 안 하면 내일도 같은 내용이 다시 옵니다.
 
 오늘도 화이팅! 💪
 ```
