@@ -107,6 +107,32 @@ date -u -d '+9 hours' +'%Y-%m-%d %A'
 > Progress DB가 아직 없으면 이 스킬을 실행하기 전에 먼저 생성해야 한다 (일회성 설정이며, 루틴이
 > 매번 실행할 때마다 하는 작업이 아니다).
 
+## Notion 조회 전략 — 실행당 딱 1번만 조회 (사용량 한도 대응)
+
+Notion MCP 워크스페이스는 `notion-query-data-sources` 호출 자체에 사용량 한도가 있고, 쉽게 걸린다
+(`❌ 워크스페이스 사용량 한도 초과` 에러). 조건마다(유예 체크, 최대 ID, 복습 기준일, 복습 항목,
+단어장) 따로 쿼리하면 실행 한 번에 8~10번씩 호출하게 되어 한도를 빠르게 소진한다.
+
+**그래서 Progress DB는 매 실행 시작 시 딱 한 번만 통째로 조회한다:**
+
+```json
+{
+  "data": {
+    "mode": "sql",
+    "data_source_urls": ["collection://9fcc598c-76e8-403a-b7cc-2f60c634b0e1"],
+    "query": "SELECT * FROM \"collection://9fcc598c-76e8-403a-b7cc-2f60c634b0e1\" LIMIT 5000"
+  }
+}
+```
+
+(데이터 소스 최대 항목 수는 문장 750 + 단어 5320 = 6070개이므로 5000이면 당분간 충분하다. 행
+개수가 이 한도에 가까워지면 LIMIT을 올린다.)
+
+아래 "처리 순서"의 0, 2, 3, 6, 7, 8, 9단계는 **전부 이 하나의 결과셋을 재사용**해서 계산한다 —
+각 단계를 할 때마다 Notion을 다시 조회하지 않고, 이미 받아온 행들을 `Type`/`Confirmed`/
+`Learned Date`/`Notebook` 기준으로 직접 필터링·정렬·그룹핑한다. 쓰기(`notion-create-pages`,
+`notion-update-page`)는 이 한도 대상이 아니므로 기존대로 진행한다.
+
 ## 처리 순서
 
 ### 0. 자동 유예(그레이스) 로직 — 놓친 날 롤백
@@ -117,24 +143,26 @@ Discord 웹훅은 발신 전용이라 사용자가 실제로 학습했는지 시
 같은 항목을 다시 보낸다** — 이것이 "놓친 날 롤백"이다 (바빠서 못 봤으면 다음날도 같은 내용이 오고,
 전체 진도는 그만큼 밀린다).
 
-문장과 단어는 서로 독립적으로 판단한다:
+문장과 단어는 서로 독립적으로 판단한다. (위에서 한 번 가져온 전체 결과셋에서 아래처럼 직접
+필터링한다 — 추가 쿼리 없음)
 
-- Progress DB에서 `Type = 'Sentence' AND (Confirmed IS NULL OR Confirmed = false)`인 행을 조회.
+- 가져온 결과셋에서 `Type = 'Sentence' AND (Confirmed가 비어있거나 false)`인 행을 골라낸다.
   - **있으면** → 그 행들을 오늘의 문장으로 그대로 재사용한다 (새로 slice/기록하지 않음). 각 행의
     `Learned Date`만 오늘 날짜로 업데이트한다 (`Item ID`/`Text`/`Meaning`/`Confirmed`는 그대로 —
     `notion-update-page`로 `Learned Date`만 갱신). 메시지에는 재전송임을 표시한다 (아래 출력 형식
     참고).
   - **없으면** → 아래 "신규 학습" 절차대로 새 항목을 진행한다.
-- `Type = 'Word'`도 동일한 규칙을 독립적으로 적용한다 (문장은 밀리고 단어는 안 밀릴 수 있음, 또는
-  그 반대도 가능).
+- `Type = 'Word'`도 동일한 규칙을 같은 결과셋에서 독립적으로 적용한다 (문장은 밀리고 단어는 안
+  밀릴 수 있음, 또는 그 반대도 가능).
 
 ### 신규 학습 (해당 Type에 유예 대상이 없을 때만)
 
 1. 오늘 날짜(KST) 계산.
-2. Progress DB에서 `Type = 'Sentence' AND Confirmed = true`인 행 중 `Item ID` 최댓값 조회 → 없으면
-   0. 다음 학습 시작 ID = 최댓값 + 1. (미확인 행은 최댓값 계산에서 반드시 제외 — 포함시키면 유예
-   로직이 무의미해진다.)
-3. 동일하게 `Type = 'Word' AND Confirmed = true`의 `Item ID` 최댓값 조회 → 다음 학습 시작 ID.
+2. 가져온 결과셋에서 `Type = 'Sentence' AND Confirmed = true`인 행들의 `Item ID` 중 최댓값을
+   계산한다 → 없으면 0. 다음 학습 시작 ID = 최댓값 + 1. (미확인 행은 최댓값 계산에서 반드시
+   제외 — 포함시키면 유예 로직이 무의미해진다.)
+3. 동일하게 `Type = 'Word' AND Confirmed = true`인 행들의 `Item ID` 최댓값을 같은 결과셋에서
+   계산 → 다음 학습 시작 ID.
 4. `sentences.json`에서 시작 ID부터 5개 slice (문장 데이터가 소진되어 5개보다 적게 남았으면 있는
    만큼만, 0개면 "전체 학습 완료" 처리).
 5. `words.json`에서 시작 ID부터 10개 slice (동일하게 소진 처리).
@@ -145,21 +173,22 @@ Discord 웹훅은 발신 전용이라 사용자가 실제로 학습했는지 시
 몇 번째로 최근이냐**로 정한다. 학습을 빼먹은 날이 있어도(예: 13일에 학습, 14일은 결석, 15일에 재개)
 "직전 학습"은 항상 사용자가 실제 마지막으로 학습을 확인한 날(위 예시라면 13일)을 가리키도록 하기
 위함이다. 문장과 단어는 학습 확인 날짜가 서로 다를 수 있으므로(한쪽만 밀렸을 수 있음) **독립적으로**
-계산한다.
+계산한다. 아래 6, 7단계 모두 맨 처음 가져온 결과셋 하나로 계산하고, 추가 쿼리는 하지 않는다.
 
 6. **문장 복습 기준일 3개 산출:**
-   - Progress DB에서 `Type = 'Sentence' AND Confirmed = true AND Learned Date < 오늘`인 행의
+   - 결과셋에서 `Type = 'Sentence' AND Confirmed = true AND Learned Date < 오늘`인 행의
      `Learned Date`를 중복 제거한 뒤 최신순(내림차순)으로 정렬한다. (오늘 날짜 자체는 제외 — 방금
      신규/유예로 기록했을 오늘자 항목은 복습 대상이 아니다.)
    - 정렬된 날짜 목록에서 **1번째(직전 학습일) / 3번째 / 7번째** 값을 각각 복습 기준일로 삼는다.
      목록 길이가 그 순번보다 짧으면(예: 학습 시작한 지 얼마 안 돼 7번째 학습일이 아직 없음) 해당
      구간은 "없음"으로 처리한다.
-   - 이 세 기준일과 일치하는 `Learned Date`를 가진 `Type = 'Sentence' AND Confirmed = true` 행을
-     조회 → 복습 문장 목록. (한 학습일에 여러 항목이 기록돼 있으면 전부 포함.)
-7. **단어도 동일한 절차를 독립적으로 적용:** `Type = 'Word' AND Confirmed = true AND Learned Date
-   < 오늘`인 행의 `Learned Date`를 중복 제거·내림차순 정렬 → 1번째/3번째/7번째 날짜를 단어 복습
-   기준일로 삼아 해당 날짜의 `Type = 'Word' AND Confirmed = true` 행을 조회 → 복습 단어 목록.
-   (문장 기준일과 단어 기준일이 달라질 수 있다 — 정상이다.)
+   - 같은 결과셋에서 이 세 기준일과 일치하는 `Learned Date`를 가진 `Type = 'Sentence' AND
+     Confirmed = true` 행을 골라낸다 → 복습 문장 목록. (한 학습일에 여러 항목이 기록돼 있으면
+     전부 포함. Notion을 다시 조회하지 않음 — 이미 가진 결과셋에서 필터링만 한다.)
+7. **단어도 동일한 절차를 독립적으로 적용:** 같은 결과셋에서 `Type = 'Word' AND Confirmed = true
+   AND Learned Date < 오늘`인 행의 `Learned Date`를 중복 제거·내림차순 정렬 → 1번째/3번째/7번째
+   날짜를 단어 복습 기준일로 삼아 해당 날짜와 일치하는 `Type = 'Word' AND Confirmed = true` 행을
+   같은 결과셋에서 골라낸다 → 복습 단어 목록. (문장 기준일과 단어 기준일이 달라질 수 있다 — 정상이다.)
 
 ### 단어장 (Notebook)
 
@@ -167,11 +196,11 @@ Discord 웹훅은 발신 전용이라 사용자가 실제로 학습했는지 시
 챙겨보고 싶은 항목을 따로 모아두는 개인 단어장**이다. 자동 복습(6, 7단계)과 달리 순환하며 빠지는
 게 아니라, 사용자가 Notion에서 직접 체크를 해제하기 전까지 매일 계속 노출된다.
 
-8. Progress DB에서 `Type = 'Sentence' AND Confirmed = true AND Notebook = true`인 행을 전부 조회
-   → 단어장 문장 목록.
-9. `Type = 'Word' AND Confirmed = true AND Notebook = true`인 행을 전부 조회 → 단어장 단어 목록.
-   (문장/단어 둘 다 조회하되, 6/7단계 복습 기준일과는 무관하게 `Notebook = true`이기만 하면 전부
-   포함한다.)
+8. 같은 결과셋에서 `Type = 'Sentence' AND Confirmed = true AND Notebook = true`인 행을 전부
+   골라낸다 → 단어장 문장 목록.
+9. `Type = 'Word' AND Confirmed = true AND Notebook = true`인 행을 같은 결과셋에서 전부 골라낸다
+   → 단어장 단어 목록. (문장/단어 둘 다, 6/7단계 복습 기준일과는 무관하게 `Notebook = true`이기만
+   하면 전부 포함. 여기도 추가 쿼리 없음.)
 
 ### 기록
 
