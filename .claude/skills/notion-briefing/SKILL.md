@@ -42,6 +42,27 @@ date -u -d '+9 hours' +'%Y-%m-%d %A'
 - 속성: Name(title), Status(To Do/Doing/Done), My Day(checkbox), Due(date)
 - 체크박스 비교는 파라미터 값 `"__YES__"` / `"__NO__"` 사용
 
+## Notion 도구 로딩 (재시도 절차 — 반드시 따를 것)
+
+클라우드 루틴 시작 직후에는 MCP 커넥터가 아직 연결 중이거나, 연결된 뒤에도 도구 목록이 늦게
+등록되는 경우가 있다. 도구를 한두 번 못 찾았다고 바로 실패 처리하지 않는다.
+
+1. 도구 이름은 정확히 `mcp__Notion__notion-query-data-sources` 이다. 키워드 검색 대신
+   항상 정확한 이름으로 선택한다:
+   ```
+   ToolSearch  query: "select:mcp__Notion__notion-query-data-sources"
+   ```
+   (`mcp__notion__…`, `query_data_sources`, `notion-search` 등 이름을 바꿔가며 추측하지 않는다.)
+2. 못 찾으면 Bash로 `sleep 30` 후 같은 select를 다시 시도한다.
+3. 이 과정을 **최대 10회(약 5분)** 반복한다. 결과 메시지에 "still connecting"이 있든,
+   서버가 연결됐다고 나오든 상관없이 같은 방식으로 계속 재시도한다.
+4. 도중에 찾으면 즉시 아래 조회 단계로 넘어간다.
+5. 10회 모두 실패했을 때만 "에러 처리" 섹션대로 실패 알림을 보낸다. 이때 메시지에
+   `도구 미등록 (재시도 10회, 약 5분)`처럼 원인과 시도 횟수를 함께 적는다.
+
+도구 호출 자체가 일시적 오류(타임아웃, 5xx, rate limit 등)로 실패하면 30초 후 최대 3회
+재호출한 뒤에야 실패로 처리한다.
+
 ## 공통: 태스크 조회
 
 ### To Do 전체 조회 (morning용)
@@ -182,5 +203,5 @@ My Day 미완료 태스크 N개가 남아있어요:
 
 ## 에러 처리
 
-- Notion 조회 실패 시: 그 사실을 요약해서 Discord 웹훅으로 `❌ Notion 조회 실패: {에러 요약}` 전송
+- Notion 조회 실패 시 ("Notion 도구 로딩" 재시도를 모두 소진한 뒤에만): 그 사실을 요약해서 Discord 웹훅으로 `❌ Notion 조회 실패: {에러 요약}` 전송
 - 웹훅 URL이 프롬프트에 없으면: 아무것도 전송하지 말고 무엇이 빠졌는지만 보고하고 종료
